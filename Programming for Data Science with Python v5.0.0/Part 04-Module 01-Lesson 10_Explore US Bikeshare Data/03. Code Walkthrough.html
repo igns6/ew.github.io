@@ -1,0 +1,227 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Code Walkthrough</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Explore US Bikeshare Data</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Project Overview.html">01. Project Overview</a>
+    </li>
+    <li class="">
+      <a href="02. Project Details.html">02. Project Details</a>
+    </li>
+    <li class="">
+      <a href="03. Code Walkthrough.html">03. Code Walkthrough</a>
+    </li>
+    <li class="">
+      <a href="04. Understanding the Data.html">04. Understanding the Data</a>
+    </li>
+    <li class="">
+      <a href="05. Practice Problem #1.html">05. Practice Problem #1</a>
+    </li>
+    <li class="">
+      <a href="06. Practice Solution #1.html">06. Practice Solution #1</a>
+    </li>
+    <li class="">
+      <a href="07. Practice Problem #2.html">07. Practice Problem #2</a>
+    </li>
+    <li class="">
+      <a href="08. Practice Solution #2.html">08. Practice Solution #2</a>
+    </li>
+    <li class="">
+      <a href="09. Practice Problem #3.html">09. Practice Problem #3</a>
+    </li>
+    <li class="">
+      <a href="10. Practice Solution #3.html">10. Practice Solution #3</a>
+    </li>
+    <li class="">
+      <a href="11. Completing and Submitting this Project - Two Options.html">11. Completing and Submitting this Project - Two Options</a>
+    </li>
+    <li class="">
+      <a href="12. Project Workspace Complete and Submit Project.html">12. Project Workspace: Complete and Submit Project</a>
+    </li>
+    <li class="">
+      <a href="Project Description - Explore US Bikeshare Data.html">Project Description - Explore US Bikeshare Data</a>
+    </li>
+    <li class="">
+      <a href="Project Rubric - Explore US Bikeshare Data.html">Project Rubric - Explore US Bikeshare Data</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">03. Code Walkthrough</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Bikeshare Project Walkthrough V1</p></h3>
+  <video controls>
+  <source src="03. Bikeshare Project Walkthrough V1---81WEZH6TQ.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="03. Bikeshare Project Walkthrough V1---81WEZH6TQ.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="CN" src="03. Bikeshare Project Walkthrough V1---81WEZH6TQ.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>You may use the template provided in <strong>bikeshare.py</strong> to complete this project. You should feel free to change the template however you'd like, as long as your code provides the statistics shown in the template, and allows a user to give input on which data they would like to see.  </p>
+<h2 id="an-interactive-experience">An Interactive Experience</h2>
+<p>The bikeshare.py file is set up as a script that takes in raw input to create an interactive experience in the terminal that answers questions about the dataset. The experience is interactive because depending on a user's input, the answers to the questions on the previous page will change! There are four questions that will change the answers:</p>
+<ol>
+<li>Would you like to see data for Chicago, New York, or Washington?</li>
+<li>Would you like to filter the data by month, day, or not at all?</li>
+<li>(If they chose month) Which month - January, February, March, April, May, or June?</li>
+<li>(If they chose day) Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?</li>
+</ol>
+<p>The answers to the questions above will determine the city and timeframe on which you'll do data analysis. After filtering the dataset, users will see the statistical result of the data, and choose to start again or exit. </p>
+<p>Remember that any time you ask users for input, there is a chance they may not enter what you expect, so your code should handle unexpected input well without failing. You need to anticipate raw input errors like using improper upper or lower case, typos, or users misunderstanding what you are expecting. Use the tips provided in the sections of the Scripting lesson in this course to make sure your code does not fail with an execution error due to unexpected raw input.</p>
+<p>Your script also needs to prompt the user whether they would like want to see the raw data. If the user answers 'yes,' then the script should print 5 rows of the data at a time, then ask the user if they would like to see 5 more rows of the data. The script should continue prompting and printing the next 5 rows at a time until the user chooses 'no,' they do not want any more raw data to be displayed.</p>
+<p><strong>Note that this bikeshare.py file is simply a template you can use, but you are not required to use it.</strong> You can change the functions however you like as long as you have an ending product that meets the project requirements. Changes to the structure of bikeshare.py (e.g., adding and/or deleting helper functions) that you think make the code more efficient or have a better style are encouraged!</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="04. Understanding the Data.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('03. Code Walkthrough')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>
