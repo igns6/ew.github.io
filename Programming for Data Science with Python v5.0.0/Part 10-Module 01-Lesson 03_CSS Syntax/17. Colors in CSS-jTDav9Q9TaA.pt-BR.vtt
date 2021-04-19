@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.290 --> 00:00:04.600
+Examinando a primeira escolha, temos
+o valor hexadecimal do vermelho.
+
+00:00:04.600 --> 00:00:09.510
+Eu sei disso porque para o canal vermelho
+ff significa que estamos usando 100% do vermelho.
+
+00:00:09.510 --> 00:00:11.610
+Mas para os canais verde e azul,
+
+00:00:11.610 --> 00:00:12.850
+ambos são 00.
+
+00:00:12.850 --> 00:00:16.110
+O que significa que estamos usando 0% de luz
+verde e azul.
+
+00:00:16.110 --> 00:00:17.660
+Isso não funciona.
+
+00:00:17.660 --> 00:00:21.610
+A seguir, temos a palavra "blue"
+sendo passada como um valor.
+
+00:00:21.610 --> 00:00:23.150
+Este funciona, de fato.
+
+00:00:23.150 --> 00:00:27.350
+É porque o CSS suporta
+um conjunto padrão de valores de cores nomeadas.
+
+00:00:27.350 --> 00:00:29.350
+Verifique o link abaixo para saber mais.
+
+00:00:29.350 --> 00:00:31.700
+Pessoalmente, minha favorita
+é amêndoa branqueada.
+
+00:00:31.700 --> 00:00:34.200
+E, sim, é uma cor.
+
+00:00:34.200 --> 00:00:35.120
+Neste próximo,
+
+00:00:35.120 --> 00:00:36.820
+temos um valor RGB.
+
+00:00:36.820 --> 00:00:41.660
+Isto quer dizer que temos 0 vermelho,
+0 verde e 255 azul.
+
+00:00:41.660 --> 00:00:43.740
+Ou 100% azul.
+
+00:00:43.740 --> 00:00:45.660
+Isso também funciona.
+
+00:00:45.660 --> 00:00:48.520
+A seguir, temos um outro valor hexadecimal.
+
+00:00:48.520 --> 00:00:50.440
+Este é o hexadecimal do amarelo.
+
+00:00:50.440 --> 00:00:51.260
+Isso não funciona.
+
+00:00:52.280 --> 00:00:55.480
+Por fim, temos este
+valor hexadecimal abreviado.
+
+00:00:55.480 --> 00:00:57.000
+Este funciona também.
+
+00:00:57.000 --> 00:01:00.800
+O valor aqui se converte para 0000ff.
+
+00:01:00.800 --> 00:01:03.215
+Que é o valor padrão do azul.
+
+00:01:03.215 --> 00:01:07.970
+O CSS oferece suporte à abreviação de
+várias propriedades diferentes.
+
+00:01:07.970 --> 00:01:09.310
+Veja o link abaixo para saber mais.
+

@@ -1,0 +1,1082 @@
+{
+  "data": {
+    "lesson": {
+      "id": 5519,
+      "key": "7473321627",
+      "title": "CSS Syntax",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Learn the basics of CSS syntax and get started adding style to your websites.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/7473321627/5519/1518484569116/CSS%20Syntax%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/7473321627/5519/1518484527508/CSS%20Syntax%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 54115,
+          "key": "74914541840923",
+          "title": "Getting Started with CSS",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74914541840923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 94002,
+              "key": "7491454184",
+              "title": "Getting Started with CSS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "MB6nv2erQ7w",
+                "china_cdn_id": "MB6nv2erQ7w.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 22062,
+          "key": "74276264120923",
+          "title": "What is CSS?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74276264120923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 136697,
+              "key": "7427626412",
+              "title": "What is CSS?",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "If you want to try removing the style from the Youtube homepage yourself, follow these instructions:\n1. Visit https://www.youtube.com/ or any other website of your choice.\n2. Right click anywhere on the page, and click \"Inspect\" (on Mac) or \"Inspect Element\" (Firefox)\n3. You'll see a panel showing HTML. Inside the `<head>` element, delete any line that has `rel=\"stylesheet\"`. For example:\n\n```\n<link rel=\"stylesheet\" href=\"//s.ytimg.com/yts/cssbin/www-core-webp-vflCayM79.css\" name=\"www-core\" class=\"css-httpssytimgcomytscssbinwwwcorewebpvflCayM79css\">\n```\n\nCongrats! You have just used Developer Tools! You will learn more about Dev tools later in this lesson. ",
+              "video": {
+                "youtube_id": "R95j4RwIrZs",
+                "china_cdn_id": "R95j4RwIrZs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 771331,
+          "key": "8a31ba00-6150-41ef-8f7b-0d3eeba5982e",
+          "title": "CSS or HTML?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8a31ba00-6150-41ef-8f7b-0d3eeba5982e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 771334,
+              "key": "434b84aa-684d-467b-94ee-b77fb593a554",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## CSS or HTML?\n\nConsider the following image showing three different web pages:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771338,
+              "key": "09177283-c28e-4095-bec1-d46284c598d7",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bd8aa85_screen-shot-2018-10-30-at-12.01.11-pm/screen-shot-2018-10-30-at-12.01.11-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/09177283-c28e-4095-bec1-d46284c598d7",
+              "caption": "",
+              "alt": "",
+              "width": 1460,
+              "height": 804,
+              "instructor_notes": null
+            },
+            {
+              "id": 771339,
+              "key": "25c571b3-0802-4213-b325-545f36f15e18",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "One web page has CSS applied to it, while the other two are unstyled. After closely examining these three web pages, which page do you think has CSS applied to it?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771352,
+              "key": "6438a7aa-0e1d-48a2-88a6-6db3a6a5d6ef",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6438a7aa-0e1d-48a2-88a6-6db3a6a5d6ef",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "The web page with CSS applied to it is...",
+                "answers": [
+                  {
+                    "id": "a1540926260776",
+                    "text": "The first web page (i.e., left-most)",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1540926263972",
+                    "text": "The second web page (i.e., middle)",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1540926264404",
+                    "text": "The third web page (i.e., right-most)",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 771353,
+              "key": "af849233-94a3-470e-833c-b5c46b11a6d5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution\n\nFor a more in-depth look, check out how we approached solving the previous exercise:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771354,
+              "key": "53ffe904-3187-4ecc-955d-8b5b270a38d8",
+              "title": "HTML or CSS Quiz",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YOOk7AQgBU0",
+                "china_cdn_id": "YOOk7AQgBU0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 33404,
+          "key": "74276264130923",
+          "title": "CSS Rulesets",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74276264130923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 94007,
+              "key": "7427626413",
+              "title": "CSS Rulesets",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "ZGQNZ4LRhM4",
+                "china_cdn_id": "ZGQNZ4LRhM4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 771355,
+          "key": "5c40fed3-4873-4221-a9f7-0ece8c8221cc",
+          "title": "CSS Syntax",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5c40fed3-4873-4221-a9f7-0ece8c8221cc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 771356,
+              "key": "a5bc8224-f48b-48c1-a146-b7b00051418d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## CSS Syntax\n\nNow, it's your turn! For this exercise, change the color of `Hello, world!` to green. You will need to use a selector to select the header tag, and you'll want to change its `color` property to `green`. \n\nIf you need help, use the CSS for the paragraph tags as a guide. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771357,
+              "key": "4bb4446c-30af-428e-8b81-5b4af260e03e",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewrtf6l4o7j4",
+              "pool_id": "webterminal",
+              "view_id": "html-live-d8ge44l5aja",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "openFiles": [
+                      "/home/workspace/Exercise.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/Exercise.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 771359,
+              "key": "a2f51c98-a58b-4c1e-9555-2281f6d160d3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution\n\nFeel free to check out the file named `Solution.html` in the workspace above to see how we did it. Here was our thought process:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771360,
+              "key": "60508cf1-e707-4292-a5d1-15ebdd818df1",
+              "title": "CSS Syntax",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JINJtljpmSE",
+                "china_cdn_id": "JINJtljpmSE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 161209,
+          "key": "8fccc76b-98e2-4147-bc6a-a8920a2a9c02",
+          "title": "Comments",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8fccc76b-98e2-4147-bc6a-a8920a2a9c02",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 161211,
+              "key": "53f5e748-39e7-4310-baaa-4904f362fce5",
+              "title": "Comments",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Comments\n\nLet's take a quick diversion to cover something useful: **code comments**.\n\nA <a href=\"https://en.wikipedia.org/wiki/Comment_(computer_programming)\" target=\"_blank\">comment</a> is a human-readable message inside code. Comments are usually surrounded by or preceded by special characters that instruct computers to completely ignore whatever text is inside the comment. Comments are great because they allow you, the developer, to leave clarifying messages and instructions for other developers (as well as your future self!). Every programming language gives you the ability to write comments.\n\nComments are also useful when you're testing your code. Rather than deleting potentially useful chunks of code, you can comment them out, getting the same effect without the risk of accidentally losing work!\n\n### CSS Comments\n\nYou saw a CSS comment in the code from your previous quiz:\n\n```\np {\n    color: blue;\n}        \n/* add CSS here */\nh1 {\n    color: red;\n}\n```\n\nThe line `/* add CSS here */` is a comment. CSS comments are surrounded by an opening `/*` and a closing `*/`. You must use both. The comment made it clear to you where you needed to add your code and it did not affect the style of the page in any way.\n\n### HTML Comments\n\nYou can write comments in HTML too! Here's how they look.\n\n    <!-- This is a comment -->\n    <div class=\"example\">Words, words, words.</div>\n\nYou must surround your HTML comments with a starting `<!--` and a closing `-->`.\n\nNow, back to CSS.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 771371,
+          "key": "b34a8a9e-64bc-41c1-a0b3-4383a531af6d",
+          "title": "Tag Selectors",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b34a8a9e-64bc-41c1-a0b3-4383a531af6d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 771372,
+              "key": "d43953c2-34ca-4e59-9e26-cf2e855f9ece",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Tag Selectors",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771373,
+              "key": "ce758f57-6916-4c95-b659-182a82a7fc92",
+              "title": "Tag Selectors",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ThF4jbVsfRo",
+                "china_cdn_id": "ThF4jbVsfRo.mp4"
+              }
+            },
+            {
+              "id": 771376,
+              "key": "1281ed8e-3dbe-44c6-919d-51c62ad5aeb6",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1281ed8e-3dbe-44c6-919d-51c62ad5aeb6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Just like you saw in the previous video, consider a web page with multiple paragraph tags. If we write a CSS ruleset use a `p` selector, which paragraph(s) would be affected by the style?\n\n```css\np {\n  background-colors: pink;\n{\n```",
+                "answers": [
+                  {
+                    "id": "a1540929349225",
+                    "text": "The first paragraph",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1540929506800",
+                    "text": "All paragraphs",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 771378,
+              "key": "bc56b5b8-fc05-460b-bea6-d5b0c2216914",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution\n\nHere's how we approached solving this exercise:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771380,
+              "key": "c1e180d0-513c-4a34-ae6e-f6986bba2300",
+              "title": "Tag Selectors",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3dU8i98_xCI",
+                "china_cdn_id": "3dU8i98_xCI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 115824,
+          "key": "74276264200923",
+          "title": "Attributes and Selectors",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74276264200923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 70645,
+              "key": "7427626420",
+              "title": "Attributes and Selectors",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "#### Tag Selector\n\n```\nh1 {\n  color: green;\n}\n```\n\n#### `class` Attribute Selector\n\n```\n.book-summary {\n  color: blue;\n}\n```\n\n#### `id` attribute selector\n\n```\n#site-description {\n  color: red;\n}\n```",
+              "video": {
+                "youtube_id": "dGmfwNCA3kM",
+                "china_cdn_id": "dGmfwNCA3kM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 771388,
+          "key": "91d87889-8fd9-408e-9e77-9ad46c90dae5",
+          "title": "Using Selectors",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "91d87889-8fd9-408e-9e77-9ad46c90dae5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 771389,
+              "key": "a4e7672f-f862-46a6-9f3e-5f56dbac9550",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Using Selectors\n\nClasses are easily the most useful and versatile type of selectors that you can use. For this exercise, consider the given CSS statement, which uses a class selector for the class `right` and changes the value of the `text-align` property to `right`:\n\n```css\n.right {\n  text-align: right;\n}\n```\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771401,
+              "key": "2505d74e-b428-4962-9b8c-82d59a36248f",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2505d74e-b428-4962-9b8c-82d59a36248f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following HTML elements match the above CSS statement? Please select all that apply:",
+                "answers": [
+                  {
+                    "id": "a1540931581476",
+                    "text": "`<div class=\"right\"></div>`",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1540931624232",
+                    "text": "`<a href=\"#\" class=\"leftright\"></a>`",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1540931624702",
+                    "text": "`<button id=\"right\"></button>`",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1540931625246",
+                    "text": "`<p class=\"highlight module right\"></p>`",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 771402,
+              "key": "9f8a06c8-bcc6-4f1d-8065-384bda333f43",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771403,
+              "key": "cf590326-b3f4-4c0f-9aba-04256a913147",
+              "title": "Using Selectors Quiz",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "vtiFi3WGecs",
+                "china_cdn_id": "vtiFi3WGecs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 771404,
+          "key": "f2e55a8c-b5fd-4cdc-b54e-72a3698b847a",
+          "title": "Using CSS References",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f2e55a8c-b5fd-4cdc-b54e-72a3698b847a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 771405,
+              "key": "0604cf62-2114-4923-afd2-fa67247ac472",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Using CSS References\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771406,
+              "key": "77027a03-709b-4c31-9759-8bdcf09be6bd",
+              "title": "Using CSS References",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "whHOVlT9YUU",
+                "china_cdn_id": "whHOVlT9YUU.mp4"
+              }
+            },
+            {
+              "id": 771407,
+              "key": "fdb6de25-0e8a-4ff9-9049-3f87b4c1e095",
+              "title": "",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fdb6de25-0e8a-4ff9-9049-3f87b4c1e095",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which CSS property is used to _italicize_ text?",
+                "matchers": [
+                  {
+                    "expression": "^font\\-style?\\n?$"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 771408,
+              "key": "ea46a871-c3da-453c-924f-cb3fc7c4ddcb",
+              "title": "",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ea46a871-c3da-453c-924f-cb3fc7c4ddcb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which CSS property is used to underline text?",
+                "matchers": [
+                  {
+                    "expression": "^text\\-decoration?\\n?$"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 771409,
+              "key": "7c668aa1-f36b-4531-a5f2-f0378064902c",
+              "title": "",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7c668aa1-f36b-4531-a5f2-f0378064902c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which CSS property is used to UPPERCASE text?",
+                "matchers": [
+                  {
+                    "expression": "^text\\-transform?\\n?$"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 771410,
+              "key": "bdd1b087-06c0-43dc-86f7-922abd6d132c",
+              "title": "",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bdd1b087-06c0-43dc-86f7-922abd6d132c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which CSS property is used to **bold** text?",
+                "matchers": [
+                  {
+                    "expression": "^font\\-weight?\\n?$"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 771411,
+              "key": "a074a2f1-1847-4426-90bc-57b9fa13118d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771412,
+              "key": "6ce6690f-eb1e-441b-97ee-7d8af722ab9b",
+              "title": "Using CSS References",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Kwa_pmm4vqg",
+                "china_cdn_id": "Kwa_pmm4vqg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 59585,
+          "key": "74276264240923",
+          "title": "Developer Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74276264240923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 128477,
+              "key": "7427626424",
+              "title": "Developer Tools",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "c2LYTT-pIhQ",
+                "china_cdn_id": "c2LYTT-pIhQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 44391,
+          "key": "74478058180923",
+          "title": "Developer Tools on Different Browsers",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74478058180923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 21051,
+              "key": "7447805818",
+              "title": "Developer tools on different browsers",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Developer tools on different browsers\n\nDid you know, every modern web browser includes its own set of developer tools?\n\nIf you didn't, that's okay. Developer tools aren't always the easiest thing to find in your browser. So, we've decided to help you out by creating this guide to developer tools!\n\n### Instructions\n* <a href=\"#google\" target=\"_self\">Google Chrome</a>\n* <a href=\"#firefox\" target=\"_self\">Mozilla Firefox</a>\n* <a href=\"#explorer\" target=\"_self\">Internet Explorer</a>\n* <a href=\"#edge\" target=\"_self\">Microsoft Edge</a><a name=\"google\"></a><!-- don't move this -->\n* <a href=\"#safari\" target=\"_self\">Safari</a>\n* <a href=\"#opera\" target=\"_self\">Opera</a>\n\n### Google Chrome\n\nThe Chrome DevTools are a set of web authoring and debugging tools built into Google Chrome. Use the DevTools to iterate, debug and profile your site. [Learn more about Chrome DevTools here](https://developers.google.com/web/tools/chrome-devtools/).\n\nTo open Chrome DevTools, either right-click on any page element and select `Inspect` or open the Chrome settings menu in the top-right corner of your browser window and select `More Tools > Developer Tools`. Alternatively, you can use the shortcuts: \n<a name=\"firefox\"></a> <!-- don't move this. -->\n* `Command + Option + i` (Mac)\n* `Ctrl + Shift + i` (Windows/Linux).\n\n### Mozilla Firefox\n\nFirefox Developer Tools allow you to examine, edit, and debug HTML, CSS, and JavaScript on the desktop and on mobile. Also, you can download a version of of Firefox called Firefox Developer Edition that is tailored for developers, featuring the latest Firefox features and experimental developer tools. [Learn more about Mozilla Firefox DevTools here](https://developer.mozilla.org/en-US/docs/Tools).\n\nTo open Firefox Developer Tools, either right-click on any page element and select `Inspect Element` or open the Firefox settings menu in the top-right corner of your browser window and select `Developer`. Alternatively, you can use the shortcuts:\n<a name=\"explorer\"></a><!-- don't move this -->\n* `Command + Option + i` (Mac)\n* `Ctrl + Shift + i` (Windows/Linux).\n\n### Internet Explorer\n\nIf you use Internet Explorer, then you can access F12 developer tools by simply pressing `F12`. The features vary between versions, but starting at Internet Explorer 8 remain pretty consistent. Below, we've linked to documentation for each version, but if you've upgraded to Microsoft Edge, then check the next section.\n\n- [Internet Explorer 8](https://msdn.microsoft.com/en-us/library/dd565628.aspx)\n- [Internet Explorer 9](https://msdn.microsoft.com/en-us/library/gg589512.aspx)<a name=\"edge\"></a> <!-- don't move this -->\n- [Internet Explorer 10](https://msdn.microsoft.com/en-us/library/hh673549.aspx)\n- [Internet Explorer 11](https://msdn.microsoft.com/en-us/library/bg182636.aspx)\n\n### Microsoft Edge\nMicrosoft Edge introduces great new improvements to the F12 developer tools seen in Internet Explorer. The new tools are built in TypeScript, and are always running, so no reloads are required. In addition, F12 developer tools documentation is now fully available on [GitHub](https://github.com/MicrosoftDocs/edge-developer).\n<a name=\"safari-browser\"></a><!-- don't move this -->\n\nJust like Internet Explorer, to open developer tools in Microsoft Edge simply press `F12`.\n\n[Learn more about Microsoft Edge DevTools here](https://dev.windows.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/).\n\n### Safari\n\nFor any Mac users, Safari includes Web Inspector, a powerful tool that makes it easy to modify, debug, and optimize a website for peak performance and compatibility on both platforms. [Learn more about Safari Web Inspector here](https://developer.apple.com/safari/tools/).\n\nTo access Safari's Web Development Tools, enable the Develop menu in Safari’s Advanced preferences. <a name=\"opera-browser\"></a><!-- don't move -->Once enabled, you can right-click on any page element and select `Inspect Element` to open Web Development Tools or use the shortcut `Command + Option + i`.\n\n### Opera\nOpera is a fast, lean and powerful web browser. you can open Developer tools in Opera using the following keyboard shortcuts:\n* `Command + Option + i` (Mac)\n* `Ctrl + Shift + i` (Windows/Linux). \n\nAlternatively, you can target a specific element by right-clicking in the page and selecting `Inspect Element`.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 49485,
+          "key": "74276264250923",
+          "title": "Quiz: Using Developer Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74276264250923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 348141,
+              "key": "8d5c1bde-70d2-42db-93b6-9d5f9666d450",
+              "title": "Using Developer Tools - Quiz",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "tcXkU1wc750",
+                "china_cdn_id": "tcXkU1wc750.mp4"
+              }
+            },
+            {
+              "id": 348142,
+              "key": "0432cc5d-a9af-44ef-8427-360c4c7e3ceb",
+              "title": "",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0432cc5d-a9af-44ef-8427-360c4c7e3ceb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "I've loaded one of my favorite websites",
+                "I've opened up the DevTools",
+                "I've located some `id` and `class` attributes"
+              ],
+              "positive_feedback": "",
+              "video_feedback": {
+                "youtube_id": "aqe7-FZr7v0",
+                "china_cdn_id": "aqe7-FZr7v0.mp4"
+              },
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 26481,
+          "key": "74276264280923",
+          "title": "CSS Units",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74276264280923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 93981,
+              "key": "7427626428",
+              "title": "CSS Units",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "#### Resources about CSS Units\n\n- Mozilla Developer Network - [CSS Length](https://developer.mozilla.org/en-US/docs/Web/CSS/length)\n- css-tricks.com - [The Length of CSS](https://css-tricks.com/the-lengths-of-css/)\n\n---\n\n#### Image Credits\n\n- 'Karakoram Highway' by [Marc van der Chijs](https://www.flickr.com/photos/chijs/) via Flickr, Creative Commons.\n- 'Silhouette of Car with Driver' by [Inkwina](https://commons.wikimedia.org/wiki/User:Inkwina) via Wikipedia, Creative Commons.",
+              "video": {
+                "youtube_id": "GUeDgQF7AvM",
+                "china_cdn_id": "GUeDgQF7AvM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 771414,
+          "key": "2f3b2712-857f-4fd7-8886-146fea696bbc",
+          "title": "Units in CSS",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2f3b2712-857f-4fd7-8886-146fea696bbc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 771415,
+              "key": "bbd537b2-bad3-452d-808e-497232ab05c5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Units in CSS",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771429,
+              "key": "4ec3cca4-7bab-4b6b-8432-e12ccf791990",
+              "title": "Units in CSS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "VM4fua5yzN8",
+                "china_cdn_id": "VM4fua5yzN8.mp4"
+              }
+            },
+            {
+              "id": 771434,
+              "key": "58cb1381-118f-4e66-9e3c-0b70fb6c3ae9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Just to recap, here are the changes you'll make to the webpage:\n\n1. Set the first div's `width` to `100px` (pixels)\n2. Set the second div's `height` to `200px` (pixels)\n3. Set the third div's `margin` to `1em`\n4. Set the fourth div's `font-size` to `2em`",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771432,
+              "key": "aba96de9-0dd1-4d2b-b712-6dcdff30996e",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewe2ppz40vz9r",
+              "pool_id": "webterminal",
+              "view_id": "html-live-vhfarr5v9xo",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "openFiles": [
+                      "/home/workspace/Exercise.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/Exercise.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 771438,
+              "key": "390660c0-f7b0-4c5f-8b53-2743c01bc8a7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771440,
+              "key": "484f243e-c5c7-4a7b-abd6-e43991491c55",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Feel free to review the file named `Solution.html` in the above workspace. For an in-depth look at how we approached this exercise, check out the video below:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771442,
+              "key": "ab33aa68-6d08-4b37-bc48-6f34034927b2",
+              "title": "Units in CSS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "V8P25BtPLUQ",
+                "china_cdn_id": "V8P25BtPLUQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 81834,
+          "key": "74276264320923",
+          "title": "CSS Colors",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74276264320923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 122170,
+              "key": "7427626432",
+              "title": "CSS Colors",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "#### How Hexadecimal Works\n\n- [The Hexadecimal Numeral System](https://en.wikipedia.org/wiki/Hexadecimal)\n- [Hex to RGB Convertor](http://hex.colorrrs.com/)\n\n---\n\n#### Image Credits\n\n- Photos by [Markus Spiske](http://www.raumrot.com) via Raumrot, Creative Commons.\n- 'A powerful light shining in the dark' by [Zouavman Le Zouave](https://commons.wikimedia.org/wiki/User:Zouavman_Le_Zouave) via Wikipedia, Creative Commons.",
+              "video": {
+                "youtube_id": "KIzjQfT8R6g",
+                "china_cdn_id": "KIzjQfT8R6g.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 771445,
+          "key": "d5cff069-5aa0-41d1-b04c-71262b422e9b",
+          "title": "Identifying Colors",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d5cff069-5aa0-41d1-b04c-71262b422e9b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 771446,
+              "key": "50ff7a6c-6cf4-4a3f-a27d-580e076d88f8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Identifying Colors\n\nThere are lots of ways to express color in CSS. For this exercise, your goal is to choose the correct CSS delegation(s) for the standard color _blue_.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771564,
+              "key": "a1a316e8-8f9c-4575-a21c-43e579c7a010",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a1a316e8-8f9c-4575-a21c-43e579c7a010",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following CSS declarations can be used to represent the standard color for blue?",
+                "answers": [
+                  {
+                    "id": "a1541010356163",
+                    "text": "`color: #ff0000;`",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541010385418",
+                    "text": "`color: blue;`",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541010386052",
+                    "text": "`color: rgb(0, 0, 225);`",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541010386606",
+                    "text": "`color: #ffff00;`",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541010387184",
+                    "text": "`color: #00f;`",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 771565,
+              "key": "5d3b2dea-f36a-4666-8b9e-fd3bcfafba20",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 771566,
+              "key": "7770ec43-038d-4625-bbbb-06c25fbcb016",
+              "title": "Colors in CSS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jTDav9Q9TaA",
+                "china_cdn_id": "jTDav9Q9TaA.mp4"
+              }
+            },
+            {
+              "id": 970794,
+              "key": "eb0a800f-ee3f-4220-a0cb-45042fbe3aab",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### References\n\n- [Named Colors and Hex Equivalents](https://css-tricks.com/snippets/css/named-colors-and-hex-equivalents/)\n- [CSS Shorthand Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)\n- [CSS Shorthand Hexadecimal form](https://en.wikipedia.org/wiki/Web_colors#Shorthand_hexadecimal_form)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 41126,
+          "key": "74239956570923",
+          "title": "Outro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74239956570923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 116534,
+              "key": "7423995657",
+              "title": "Outro and Problem Set",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JchUapm32iY",
+                "china_cdn_id": "JchUapm32iY.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    }
+  ]
+}

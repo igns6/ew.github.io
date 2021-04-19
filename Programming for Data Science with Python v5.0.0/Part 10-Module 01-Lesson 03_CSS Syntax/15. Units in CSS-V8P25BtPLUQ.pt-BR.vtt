@@ -1,0 +1,100 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.750 --> 00:00:04.250
+Para responder a pergunta,
+vou adicionar o CSS correto.
+
+00:00:04.440 --> 00:00:06.775
+Por sorte, os seletores de classe
+já foram
+
+00:00:06.775 --> 00:00:08.050
+escritos para nós.
+
+00:00:08.050 --> 00:00:11.325
+Só precisamos adicionar
+as propriedades certas e seus valores.
+
+00:00:11.860 --> 00:00:14.775
+Eu adicionarei isso e
+veremos o que eles fazem.
+
+00:00:15.050 --> 00:00:17.425
+Se eu salvar e atualizar a página,
+
+00:00:18.125 --> 00:00:21.120
+você verá que os divs agora
+estão um pouco diferente.
+
+00:00:21.120 --> 00:00:24.530
+O primeiro div não se estende mais
+de uma extremidade à outra da página.
+
+00:00:24.530 --> 00:00:27.910
+Ele cobre um espaço de
+100 pixels.
+
+00:00:27.910 --> 00:00:31.520
+Isso ocorre porque mudamos
+a largura para 100 pixels.
+
+00:00:31.520 --> 00:00:35.580
+O segundo div parece
+ter o dobro da altura agora.
+
+00:00:35.580 --> 00:00:37.900
+Isso faz sentido porque
+dobramos sua altura
+
+00:00:38.025 --> 00:00:40.620
+de 100 pixels
+do original.
+
+00:00:40.620 --> 00:00:45.330
+Observando o terceiro div, notamos
+um em de espaço ao redor do div.
+
+00:00:45.330 --> 00:00:47.700
+Isso se deve ao uso
+da propriedade de margem.
+
+00:00:47.700 --> 00:00:49.775
+Abordaremos a propriedade margin
+em detalhes
+
+00:00:49.775 --> 00:00:51.110
+mais adiante neste curso,
+
+00:00:51.110 --> 00:00:54.160
+mas procure testá-la
+para saber exatamente o que ela faz.
+
+00:00:54.160 --> 00:00:56.425
+Finalmente, o parágrafo
+do quarto div
+
+00:00:56.500 --> 00:00:59.950
+agora usa um tamanho de fonte
+que é o dobro do tamanho anterior.
+
+00:00:59.950 --> 00:01:03.250
+Isso ocorre porque definimos
+o tamanho da fonte como 2ems.
+
+00:01:03.250 --> 00:01:06.860
+Se o tamanho da fonte estava definido como 1em,
+o tamanho da fonte do parágrafo
+
+00:01:06.860 --> 00:01:10.700
+seria exatamente igual
+ao do parágrafo no terceiro div.
+
+00:01:10.700 --> 00:01:12.750
+Ao definirmos o tamanho da fonte como 2ems,
+
+00:01:12.750 --> 00:01:15.825
+estamos dobrando
+o seu tamanho padrão normal.
+

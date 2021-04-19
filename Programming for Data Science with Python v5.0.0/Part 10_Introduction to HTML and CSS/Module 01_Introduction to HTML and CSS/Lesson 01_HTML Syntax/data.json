@@ -1,0 +1,1028 @@
+{
+  "data": {
+    "lesson": {
+      "id": 111057,
+      "key": "6987421963",
+      "title": "HTML Syntax",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Set up your development environment for writing HTML and learn basic tags and syntax.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/6987421963/111057/1518484533192/HTML%20Syntax%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/6987421963/111057/1518484504200/HTML%20Syntax%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 104455,
+          "key": "74229205890923",
+          "title": "Lesson Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74229205890923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 199247,
+              "key": "bfce5fdc-b891-440e-bf50-5086c0b2afc0",
+              "title": "Lesson Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-FGtzWQWrMs",
+                "china_cdn_id": "-FGtzWQWrMs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 84738,
+          "key": "74229205900923",
+          "title": "HTML Structure Part 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74229205900923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 94009,
+              "key": "7422920590",
+              "title": "HTML Structure",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "UjCbXQ8Coic",
+                "china_cdn_id": "UjCbXQ8Coic.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 752688,
+          "key": "a470ae6d-cb90-41b4-8776-646b707dfd41",
+          "title": "Make Your First Element",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a470ae6d-cb90-41b4-8776-646b707dfd41",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 752689,
+              "key": "fbcec99b-109a-435d-af66-61cef6b42267",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Make Your First Element\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 752690,
+              "key": "21cbb72d-bf4d-4a76-8845-191bfa04e91f",
+              "title": "Make Your First Element",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "uUknlMoWMSY",
+                "china_cdn_id": "uUknlMoWMSY.mp4"
+              }
+            },
+            {
+              "id": 752693,
+              "key": "1c72d480-b1ad-4bd2-8819-3094f6aa0ba9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To recap the previous video, your goal is to make three elements:\n\n* One paragraph\n* Two spans\n\nMake sure you put some text content in every element! \n\nHere's an example element:\n\n```html\n<tag>content</tag>\n```\n\nFeel free to use the workspace below to create your elements!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 752718,
+              "key": "65e30117-d67e-4d5f-80d1-2f99ad67c7b7",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view6sht3yv6pp8",
+              "pool_id": "webterminal",
+              "view_id": "html-live-84clxng0lfx",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "openFiles": [
+                      "/home/workspace/Exercise.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/Exercise.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 752719,
+              "key": "f52b34da-412e-48d8-a648-621273b8e7bd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution\n\nCheck out the video below (as well as the `Solution.html` file in the workspace above) to see what we came up with:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 752695,
+              "key": "f310d053-fa4d-4b56-a4e3-173058d0282f",
+              "title": "Make Your First Element",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Dnol8BidVnI",
+                "china_cdn_id": "Dnol8BidVnI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 105903,
+          "key": "74229205940923",
+          "title": "Environments",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74229205940923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 116740,
+              "key": "7422920594",
+              "title": "Environments",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "ASCII-based plain text are being replaced with Unicode as a universal character encoding.",
+              "video": {
+                "youtube_id": "o6RrK6LaIZQ",
+                "china_cdn_id": "o6RrK6LaIZQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 111086,
+          "key": "75480891520923",
+          "title": "Text Editors",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "75480891520923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 194452,
+              "key": "1e286c07-8fbe-4a4e-bfeb-8a245be87ff1",
+              "title": "Sublime Text 3",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Visual Studio Code",
+              "instructor_notes": ""
+            },
+            {
+              "id": 528090,
+              "key": "edcb1d1f-93f1-4a2a-adb0-6e6ee4778dc2",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a725723_code-editor-logo-vscode/code-editor-logo-vscode.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/edcb1d1f-93f1-4a2a-adb0-6e6ee4778dc2",
+              "caption": "Visual Studio Code Logo",
+              "alt": "",
+              "width": 128,
+              "height": 128,
+              "instructor_notes": null
+            },
+            {
+              "id": 194455,
+              "key": "6e3caac6-0839-46e3-92b8-08625db3551e",
+              "title": "Available for Windows, Mac, Linux",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "_Available for Windows, Mac, Linux_\n\n**Cost**: Free\n\n**Style**: GUI\n\n[Website](https://code.visualstudio.com/)\n\nVisual Studio Code is a source code editor developed by Microsoft that includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 194456,
+              "key": "86c600e4-e43d-456b-b849-4609fc1088a2",
+              "title": "Atom Editor",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Atom Editor",
+              "instructor_notes": ""
+            },
+            {
+              "id": 194457,
+              "key": "02fb32cc-b9a4-4c41-a73e-5473140475a5",
+              "title": "Atom Editor Logo",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57ed8080_atom-logo/atom-logo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/02fb32cc-b9a4-4c41-a73e-5473140475a5",
+              "caption": "Atom Editor Logo",
+              "alt": null,
+              "width": 128,
+              "height": 117,
+              "instructor_notes": null
+            },
+            {
+              "id": 194458,
+              "key": "3bafca68-ea3b-4016-9a8a-f1f9f6d810dc",
+              "title": "Available for Windows, Mac, Linux",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "_Available for Windows, Mac, Linux_\n\n**Cost**: Free\n\n**Style**: GUI\n\n[Website](https://atom.io/)\n\nAtom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in Node.js, and embedded Git Control, developed by GitHub.\n\nBoth Atom and Visual Studio Code are hugely popular and the majority of web developers that you'll meet will probably be using one or the other. Both feature multiple cursors and they share many of the same keyboard shortcuts. Also much like Visual Studio Code, Atom has a rich ecosystem of packages that you can use to customize your editor to your heart's content.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 194463,
+              "key": "49d31e94-7690-4668-a43c-1998ff5412fa",
+              "title": "Emacs",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Emacs",
+              "instructor_notes": ""
+            },
+            {
+              "id": 194464,
+              "key": "cacda7eb-6d71-4bc2-bec6-e9e11bb5d214",
+              "title": "Emacs Logo",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57ed811f_emacs-logo/emacs-logo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cacda7eb-6d71-4bc2-bec6-e9e11bb5d214",
+              "caption": "Emacs Logo",
+              "alt": null,
+              "width": 128,
+              "height": 128,
+              "instructor_notes": null
+            },
+            {
+              "id": 194465,
+              "key": "eef6d60a-9135-47d2-8a4d-451371adda9b",
+              "title": "Emacs Information",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "_Available for Windows, Mac, Linux_\n\n**Cost**: Free\n\n**Style**: Command-Line or GUI\n\n[Website](https://www.gnu.org/software/emacs/) or [Aquamacs](http://aquamacs.org/) (for OS X)\n\nEmacs is an open source text editor that's been around since the 1970s. Along with Vim, it's one of the most popular Linux text editors.\n\nEmacs is often described as an operating system because even in a clean install there are several included applications that you wouldn't expect inside a text editor, like a news reader, several calculators, a number of games, file encryption/decryption, and a package manager for plugins written in [Emacs Lisp](https://en.wikipedia.org/wiki/Emacs_Lisp).\n\nAll Emacs commands exist in the same namespace so it's not uncommon to differentiate commands by having chains of keystrokes like C-x C-f (Control - x, Control - f) to open a file. Because of the incredible customizability, it's among the editors with the steepest learning curves. You will most likely want to customize it: installing plugins, trying them, testing for conflicts, uninstalling the ones that have conflicts, and repeating.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 194466,
+              "key": "51743d34-1e19-417f-bc00-700dc13c518f",
+              "title": "Vim",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Vi/Vim",
+              "instructor_notes": ""
+            },
+            {
+              "id": 194467,
+              "key": "dd56683e-b046-4668-b3ea-5fb541c0e801",
+              "title": "Vim Logo",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57ed8182_vim-logo/vim-logo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/dd56683e-b046-4668-b3ea-5fb541c0e801",
+              "caption": "Vim Logo",
+              "alt": null,
+              "width": 128,
+              "height": 128,
+              "instructor_notes": null
+            },
+            {
+              "id": 194468,
+              "key": "a25c276b-39e3-4bef-b792-5104e29cc43b",
+              "title": "Vim Information",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "_Available for Windows, Mac, Linux_\n\n**Cost**: Free and open source\n\n**Style**: Command Line or GUI\n\n[Website](http://www.vim.org/index.php)\n\nVim, or Vi IMproved is the other text editor in the [Unix Editor Wars](https://en.wikipedia.org/wiki/Editor_war).\n\nVim runs anywhere that standard C can run and is often in the base install for most Linux and non-Windows systems including Mac OS X. It also offers a fairly robust [tutorial](http://www.openvim.com/) to learn how to use it. Learn it once and you can use it everywhere.\n\n*For experienced students (everyone else, it's ok if you don't understand this right now):* Vim relies on modes, or scopes, when certain commands are applicable. In the command mode, the user can move around a file or execute commands. For instance, in insert mode, you can edit a file. While you are creating a HTML file (and are in HTML mode), you might be able to expand `html:5` into the boilerplate for an empty HTML file.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 107089,
+          "key": "75410003410923",
+          "title": "Browsers",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "75410003410923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 99685,
+              "key": "7541000341",
+              "title": "Browsers",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Browsers\n\nWebsites run in browsers, which means you need some browsers to run websites!\n\nYour users could be using **any** browser to visit the websites that you build for them. There are slight differences in the way that different browsers will render your websites, which means that you'll need to test your sites in *all* of them.\n\nNow, you don't need to download every browser right now, but I want to make sure that you install the two most popular cross-platform browsers: **Google Chrome** and **Mozilla Firefox**.\n\nOther browsers, like Apple Safari and Microsoft Edge, are fantastic as well and you should continue to browse and test your sites with them. However, both are only available on a single operating system and neither have quite as robust a set of tools for developers (ie. \"Developer Tools\" or \"DevTools\") as Chrome and Firefox.\n\nIn most of the lessons on Udacity, you'll see us using Chrome. Chrome has an amazingly powerful set of Developer Tools that you'll be using to learn more about your websites than you can imagine. You'll learn more about Developer Tools in later lessons.\n\n(That's not to disparage Firefox, which also has an awesome set of Developer Tools.)\n\nRight now, I want you to install Chrome and Firefox if you haven't already.\n\n[Install Chrome](https://www.google.com/chrome/browser/desktop/)\n\n[Install Firefox](https://www.mozilla.org/)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 51661,
+          "key": "74229205950923",
+          "title": "Workflow",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74229205950923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 128475,
+              "key": "7422920595",
+              "title": "Workflow",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Don't worry, you won't be required to use this workflow for every quiz right away. We will often provide you with the Udacity in-classroom code editor for many of the quizzes you'll see in this and following lessons. However, it's worth getting comfortable with your text editor and browser because you'll eventually be working exclusively with them.",
+              "video": {
+                "youtube_id": "A9MZzKYGd_0",
+                "china_cdn_id": "A9MZzKYGd_0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 138903,
+          "key": "74229205960923",
+          "title": "Trees",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74229205960923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 94003,
+              "key": "7422920596",
+              "title": "Trees",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "OVeJU18ADmw",
+                "china_cdn_id": "OVeJU18ADmw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 56950,
+          "key": "74229205970923",
+          "title": "HTML and Trees",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74229205970923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 93992,
+              "key": "7422920597",
+              "title": "HTML and Trees",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "766JMEtZCPE",
+                "china_cdn_id": "766JMEtZCPE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 752697,
+          "key": "d511f41d-3fb3-4e2b-a53f-b7d675f5fb63",
+          "title": "Spot the Bug",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d511f41d-3fb3-4e2b-a53f-b7d675f5fb63",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 752698,
+              "key": "bdc0bcbe-520f-44c4-97b3-e3d9d09f48f4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Spot the Bug\n\nConsider each of the following chunks of HTML. Which are formatted _incorrectly_? That is, which ones look wrong and need their HTML corrected?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 752701,
+              "key": "1bfa84f6-80a5-4724-9f39-da96c8ade97a",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1bfa84f6-80a5-4724-9f39-da96c8ade97a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "```html\n<p>a paragraph<p>\n```",
+                "answers": [
+                  {
+                    "id": "a1539809232556",
+                    "text": "Looks good!",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539809266824",
+                    "text": "Improperly formatted",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 752703,
+              "key": "794ba039-439b-4428-b988-330538f9de0e",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "794ba039-439b-4428-b988-330538f9de0e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "```html\n<p><em>words, words, wrods.</em></p>\n```",
+                "answers": [
+                  {
+                    "id": "a1539809594268",
+                    "text": "Looks good!",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539809691729",
+                    "text": "Improperly formatted",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 752705,
+              "key": "180cae67-5fc9-4a17-915b-84247ecdbf6c",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "180cae67-5fc9-4a17-915b-84247ecdbf6c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "```html\n<span...middle of the sentence...</span>\n```",
+                "answers": [
+                  {
+                    "id": "a1539809870754",
+                    "text": "Looks good!",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539809911320",
+                    "text": "Improperly formatted",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 752707,
+              "key": "b3f7ec0e-2708-4d89-8fce-ac65a60871df",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b3f7ec0e-2708-4d89-8fce-ac65a60871df",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "```html\n<p><em>words, words, wrods.</p></em>\n```",
+                "answers": [
+                  {
+                    "id": "a1539810410348",
+                    "text": "Looks good!",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539810438055",
+                    "text": "Improperly formatted",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 752708,
+          "key": "e9da8fbe-e7b1-4764-b96c-22c8b92c1642",
+          "title": "HTML Research",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e9da8fbe-e7b1-4764-b96c-22c8b92c1642",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 752709,
+              "key": "81f76adc-a441-44d6-bd70-822147e163a2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## HTML Research\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 752710,
+              "key": "bf8f819e-399e-4fee-8166-20f18c46f309",
+              "title": "Research",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "WNipw86jmMc",
+                "china_cdn_id": "WNipw86jmMc.mp4"
+              }
+            },
+            {
+              "id": 752711,
+              "key": "5d208fdc-42ac-42f0-89fc-b6cd7d847e04",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here is the [MDN HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) page. Once you're there, click on **HTML elements** on the left-hand sidebar. Then, search for **bold** and **emphasis** (remember, you can search text on a page using keyboard shortcuts `⌘` + `F` for Mac, or `Ctrl` + `F` for Windows!).\n\nFeel free to use the workspace below to write your response to this exercise:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 752714,
+              "key": "2db1892d-1058-4bba-a80d-329cce3ddc3e",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view6i2l7cp0euv",
+              "pool_id": "webterminal",
+              "view_id": "html-live-fkks8zv9ru9",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "openFiles": [
+                      "/home/workspace/Exercise.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/Exercise.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 752716,
+              "key": "046f72b4-e154-4b23-9e03-18279f28cc6f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution\n\nCheck out what we came up with below! Note that the same code is also available in the `Solution.js` file in the above workspace.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 752717,
+              "key": "083267d6-face-464c-ac36-c5a8d80cce43",
+              "title": "Research",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "x9N2-YrOOIg",
+                "china_cdn_id": "x9N2-YrOOIg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 160877,
+          "key": "4a788a8e-2d58-4ba3-9469-c1728c410dea",
+          "title": "HTML Structure Part 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4a788a8e-2d58-4ba3-9469-c1728c410dea",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160878,
+              "key": "5fce0372-a42d-4596-8f41-471c535cd95c",
+              "title": "Intro to HTML Structure Part 2",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# HTML Structure Part 2\n\nCongratulations! You created your first HTML elements, set up your development environment, streamlined your workflow, and even organized elements on a page using a standard HTML tree structure.\n\nNow, let's take a moment for a little trip down memory lane. Remember [this clip](74229205900923#) from the beginning of the lesson?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160882,
+              "key": "bb110b08-aeec-431d-be17-903fe9f56440",
+              "title": "Screenshot from HTML Structure Video",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/578e95e8_snapshot-from-html-structure-video/snapshot-from-html-structure-video.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/bb110b08-aeec-431d-be17-903fe9f56440",
+              "caption": "Screenshot from HTML Structure video in beginning of lesson",
+              "alt": null,
+              "width": 934,
+              "height": 526,
+              "instructor_notes": null
+            },
+            {
+              "id": 160885,
+              "key": "b23221ac-1f22-417e-a112-d57ba1b58cd0",
+              "title": "Did you think it seemed odd that it took 10 lines",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Did it seem odd that it took 10 lines of HTML to create a webpage that only displayed four words? At this point, you know that `<h1>This is a heading.</h1>` is responsible for displaying the heading on the page, but what about the rest of the code?\n\n# The HTML Document\n\nEvery HTML document you create or load is derived from this basic format:\n\n<video width=\"100%\" autoplay loop >\n  <source src=\"https://s3.amazonaws.com/content.udacity-data.com/courses/fend/recropped-fend-html-template.mp4\" type=\"video/mp4\">\n  Your browser does not support the video tag. Click [here](https://s3.amazonaws.com/content.udacity-data.com/courses/fend/recropped-fend-html-template.mp4) to watch this animation.\n</video>\n\nYou can think of it as a template. And, following this template will help ensure that the page is displayed as the developer (you) intended. It not only says **what** should be displayed, but also includes relevant information that tells the browser **how** to display it. \n\nThis template can be broken down into 3 parts:\n\n1. `DOCTYPE`: Describes the type of HTML. While there are technically different types, for 99.999% of the HTML you'll write, you’ll likely be fine with `<!DOCTYPE html>`. \n2. `<head>`: Describes meta information about the site, such as the title, and provides links to scripts and stylesheets the site needs to render and behave correctly.\n3. `<body>`: Describes the actual content of the site that users will see.\n\nOmitting some of this information doesn't necessarily mean that the page won't be displayed. In fact, your browser will assume certain parts of the template exist even if you accidentally leave them out. Take this line of HTML for example:\n\n```\n<h1>This is a heading</h1>\n```\n\nIf you create an HTML file with only this line, open the file in any modern browser, and inspect the page with developer tools, you’ll see that certain parts of the basic HTML document format were assumed:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160908,
+              "key": "b787255a-0bc6-49dc-922d-94e331651392",
+              "title": "Default HTML template with dev tools",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/578e998c_dev-tools-default-template-html/dev-tools-default-template-html.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b787255a-0bc6-49dc-922d-94e331651392",
+              "caption": "The view from the Elements panel in Developer Tools when you omit all but `<h1>...</h1>`. (Notice that an empty `<head>` has been created for you.)",
+              "alt": null,
+              "width": 850,
+              "height": 186,
+              "instructor_notes": null
+            },
+            {
+              "id": 160909,
+              "key": "49374a6f-8666-4abf-98c5-fc919f38b02b",
+              "title": "That being said, this is not guaranteed behavior. ",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "That being said, this is not guaranteed behavior. Older browsers can be unpredictable, and you won’t know what browser your visitors will decide to use. It’s good practice to include all the basic parts of the template so that you aren’t relying on the guesswork of browsers to display your sites correctly.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 160910,
+          "key": "5dbe066a-c5a4-47e2-bc1b-9e56f2e05b7e",
+          "title": "HTML Documents in Depth",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5dbe066a-c5a4-47e2-bc1b-9e56f2e05b7e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160911,
+              "key": "0b5f2b08-2891-4bc2-ae67-21a1268f819d",
+              "title": "An HTML document will usually ",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### HTML Doctypes\n\nAn HTML document will usually start with a type declaration (which is not a tag, so it should not have a closing tag). The declaration helps the browser determine what type of HTML document it’s trying to parse and display.\n\nIf you’ve ever looked at an [older website](http://www.3riversstadium.com/index2.html) using dev tools, you might have noticed a doctype that looks like this:\n\n```\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n\n(Triggers Standards mode but specifies an older form of validation.)\n```\n\nOr maybe you didn’t see a doctype at all?\n\n```\n<html>\n\t… \n</html>\n\n(Triggers “Quirks” mode. This is bad.)\n```\n\nBut newer websites (and your websites!) will have a declaration that looks like this:\n\n```\n<!DOCTYPE html>\n\n(Triggers Standards mode with all updated features.) 😊\n```\n\nBrowsers look for this doctype declaration to determine which **rendering mode** to use to render the site. Generally, newer sites follow standard HTML specifications. The current standard HTML specification is called HTML5 (which is what you're learning!). On the other hand, older sites, created before HTML standards really existed, might use a different rendering mode that imitates the behavior of older browsers.\n\nIf you are interested in reading more about doctype declarations and different rendering modes, you can read about them [here](https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode).\n\nOnce you’ve declared the doctype, the next part of your HTML document is the `<html>` tag, which tells the browser that everything enclosed inside the `<html> ...  </html>` should be parsed as HTML. Then you have the two main sections of your HTML document: `<head>` and `<body>`",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160914,
+              "key": "f8d6eafd-ff39-4f25-9ce2-2605497646a1",
+              "title": "simple html tree structure",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/578ea34e_html-tree/html-tree.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f8d6eafd-ff39-4f25-9ce2-2605497646a1",
+              "caption": "Basic HTML Tree Structure",
+              "alt": null,
+              "width": 1238,
+              "height": 984,
+              "instructor_notes": null
+            },
+            {
+              "id": 160916,
+              "key": "5a01d321-8951-4c9f-9478-0c69aad8c0a2",
+              "title": "The `<head>` will contain general inform",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### `<head>` and `<body>`\n\nThe `<head>` will contain general information and metadata about the page, while the `<body>` will contain the content that will be displayed on the page. Here’s an example tree structure for a full HTML document:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160917,
+              "key": "8389c30d-ff27-45f5-960e-5db8d46657e1",
+              "title": "full html tree structure",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/578ea3b9_full-html-tree/full-html-tree.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8389c30d-ff27-45f5-960e-5db8d46657e1",
+              "caption": "Full HTML Tree Structure",
+              "alt": null,
+              "width": 1446,
+              "height": 858,
+              "instructor_notes": null
+            },
+            {
+              "id": 160918,
+              "key": "6f77abe5-2814-45c9-abfd-8048665b0bf1",
+              "title": "All the basics of HTML syntax that you’ve l",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "All of the HTML syntax that you’ve learned in this lesson will help you create the **content** of the page, which is always contained inside the `<body>` tags. The `<body>` is always visible.\n\nThe `<head>`, on the other hand, is never visible, but the information in it describes the page and links to other files the browser needs to render the website correctly. For instance, the `<head>` is responsible for:\n\n* the document’s title (the text that shows up in browser tabs): `<title>About Me</title>`.\n* associated CSS files (for style): `<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">`.\n* associated JavaScript files (multipurpose scripts to change rendering and behavior): `<script src=\"animations.js\"></script>`.\n* the charset being used (the text's [encoding](https://en.wikipedia.org/wiki/Character_encoding)): `<meta charset=\"utf-8\">`.\n* keywords, authors, and descriptions (often useful for [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization)): `<meta name=\"description\" content=\"This is what my website is all about!\">`.\n* … and more!\n\nAt this point, just focus on these two tags:\n\n* `<title>About Me</title>`\n* `<meta charset=\"utf-8\">`\n\n`<meta charset=\"utf-8\">` is pretty standard, and will allow your website to display any [Unicode character](http://unicode-table.com/en/). ([Read more on how UTF-8 works here](https://en.wikipedia.org/wiki/UTF-8).) `<title>` will define the title of the document and will be displayed in the tab of the browser window when a user visits the page.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160919,
+              "key": "4ea02764-8d1b-425f-9011-638edb1c47f9",
+              "title": "Full HTML Template",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/578ea580_full-html-template/full-html-template.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4ea02764-8d1b-425f-9011-638edb1c47f9",
+              "caption": "Full HTML Template",
+              "alt": null,
+              "width": 1622,
+              "height": 854,
+              "instructor_notes": null
+            },
+            {
+              "id": 160920,
+              "key": "1b72eb88-53c5-4d86-b042-42125fc02eeb",
+              "title": "HTML Validators",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# HTML Validators\n\nThis might seem like a lot to remember, but thankfully, there are tools out there to help you. Much like how the Udacity Feedback Extension tells you when you've met all the requirements for a particular project, [HTML validators](https://validator.w3.org) analyze your website and verify that you're writing valid HTML.\n\nI want you to try one out now!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160924,
+              "key": "738fe53b-8dca-4af5-ba90-098bc85cf21e",
+              "title": "HTML Validator Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "738fe53b-8dca-4af5-ba90-098bc85cf21e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Using the [W3C HTML Validator](https://validator.w3.org/#validate_by_input), what happens when you enter the following HTML into the \"validate by input\" text box:\n\n```\n<h1>This is a title</h1>\n```",
+                "answers": [
+                  {
+                    "id": "a1468966685392",
+                    "text": "The validator found errors or warnings in the HTML",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1468966768911",
+                    "text": "The validator crashed because the HTML was in the incorrect format",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1468966799101",
+                    "text": "The validator assumed the document was HTML5",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1468966902304",
+                    "text": "The validator assumed the document was something other than HTML5",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 160938,
+              "key": "6640f500-fed1-4d88-a3b3-525453e14358",
+              "title": "HTML Validator Part 2 Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6640f500-fed1-4d88-a3b3-525453e14358",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Now, modify the HTML you entered previously so it follows the HTML template. Make sure to set doctype for HTML5!\n\nWhat is the message displayed once the validator successfully validates your code?",
+                "answers": [
+                  {
+                    "id": "a1468968001177",
+                    "text": "No errors found while checking this document as HTML5!",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1468968243460",
+                    "text": "Document checking completed.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1468968253968",
+                    "text": "No errors or warnings to show.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1468968260169",
+                    "text": "Document checking completed. No errors or warnings to show.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 78777,
+          "key": "74229206040923",
+          "title": "Lesson Wrap Up",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74229206040923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 111252,
+              "key": "7422920604",
+              "title": "Lesson Wrap Up",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "GX9zg7Ggcdk",
+                "china_cdn_id": "GX9zg7Ggcdk.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

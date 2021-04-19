@@ -1,0 +1,69 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.960 --> 00:00:04.538
+Até este ponto, fizemos apenas
+alterações simples de estilo em nossas páginas da Web
+
+00:00:04.750 --> 00:00:06.350
+como alterar a cor da fonte.
+
+00:00:06.350 --> 00:00:09.350
+Mas há muitas outras propriedades
+que você pode alterar usando o CSS.
+
+00:00:09.350 --> 00:00:11.841
+Na verdade, há centenas,
+
+00:00:11.941 --> 00:00:14.410
+e a lista de propriedades
+cresce constantemente.
+
+00:00:14.410 --> 00:00:16.740
+Além disso,
+lembrar-se dos valores corretos
+
+00:00:16.840 --> 00:00:19.667
+a serem passados para cada propriedade
+pode ser um pesadelo.
+
+00:00:19.940 --> 00:00:24.880
+Felizmente, há recursos, como o
+Mozilla CSS Reference ou o CSS Tricks,
+
+00:00:24.880 --> 00:00:29.154
+CSS Almanac, que nos fornecem a lista
+inteira das propriedades CSS padrão,
+
+00:00:29.596 --> 00:00:31.443
+e seus valores aceitáveis.
+
+00:00:31.710 --> 00:00:33.750
+Também há o Google.
+
+00:00:33.750 --> 00:00:34.882
+No próximo exercício,
+
+00:00:34.966 --> 00:00:38.111
+quero que você se sinta à vontade
+no uso de referências CSS.
+
+00:00:39.040 --> 00:00:41.759
+Listei algumas perguntas 
+para começar.
+
+00:00:41.990 --> 00:00:47.200
+Quais propriedades CSS são usadas
+para aplicar itálico, sublinhado,
+
+00:00:47.200 --> 00:00:49.890
+letras maiúsculas e negrito ao texto?
+
+00:00:49.890 --> 00:00:51.689
+Se você ficar paralisado, confira
+
+00:00:51.789 --> 00:00:54.554
+os links
+para algumas referências do CSS a seguir.
+

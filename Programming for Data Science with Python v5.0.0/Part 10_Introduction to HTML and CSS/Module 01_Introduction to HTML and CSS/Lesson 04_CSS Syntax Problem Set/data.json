@@ -1,0 +1,860 @@
+{
+  "data": {
+    "lesson": {
+      "id": 5503,
+      "key": "7323812069",
+      "title": "CSS Syntax Problem Set",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Practice writing CSS and styling websites while exploring new properties in this problem set. ",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/7323812069/5503/1518484523143/CSS%20Syntax%20Problem%20Set%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/7323812069/5503/1518484515779/CSS%20Syntax%20Problem%20Set%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 64134,
+          "key": "75559897270923",
+          "title": "Welcome to the Problem Set!",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "75559897270923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 139173,
+              "key": "7555989727",
+              "title": "Welcome to the Problem Set!",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Welcome to the CSS syntax problem set!\n\nThe purpose of this problem set is to get you familiar with the CSS syntax and practice using different CSS properties. As you go through each exercise, recall the things you learned in the previous lesson. If you get stuck, remember that you can use references and developer tools to help you out.\n\nAfter you've completed the problem set, you should feel more confident when adding style to your webpages and you'll be ready to learn new techniques to improve your front-end web development process.\n\n## CSS References\n\n- Mozilla Developer Network - [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)\n- css-tricks.com - [CSS Almanac](https://css-tricks.com/almanac/)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 21090,
+          "key": "71153997690923",
+          "title": "Style an Image",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "71153997690923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 102712,
+              "key": "7115399769",
+              "title": "Style an Image",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "#### Important Note:\n\nThis quiz is having \"interkitten\" issues with certain browsers. For the time being, grading has been removed from this quiz. Try your best to complete the exercise and check your answer by viewing the solution.\n\n**- James**",
+              "user_state": {
+                "node_key": "7115399769",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "# Style an Image\n\nFor your first quiz, I want you to take this black and white image of a kitten and add some style to it.\n\n![kitten image](http://udacity.github.io/fend/lessons/L3/problem-set/02-style-an-image/kitten.jpg)\n\n_Aww, isn't it cute!_ 🐱\n\nI'll give you the image and the HTML, and it will be your job to add the style. But, you won't be adding just any style. Instead, you will need to use properties for `border`, `cursor`, and `box-shadow` to produce the following result.\n\n![kitten solution](http://udacity.github.io/fend/lessons/L3/problem-set/02-style-an-image/kitten-solution.jpg)\n\n_Hint: The color of the border is salmon (#fa8072)_\n\n### Border\n\nIf you've ever used a table in a word processor or spreedsheet, then you should be familiar with borders. With CSS, you can add a border to just about anything. There are a ton of different options for customizing borders like style, width, and color! Click [here](https://developer.mozilla.org/en-US/docs/Web/CSS/border \"CSS Borders\") to learn more.\n\n![border styles](http://udacity.github.io/fend/lessons/L3/problem-set/02-style-an-image/border-styles.jpg)\n\n_An example of the different border styles you can achieve with CSS_\n\n### Cursor\n\nIt's possible you've never noticed your cursor change when viewing a website because it's so subtle. But, changing the cursor can be extremely helpful when trying to communicate things to the user. For example, if a user hovers over a link, changing the cursor to a pointer let's the user know the link can be clicked.\n\n![cursor example](http://udacity.github.io/fend/lessons/L3/problem-set/02-style-an-image/cursors.jpg)\n\n_A normal button on the left, and the same button while a mouse is hovering over it on the right_\n\nFor most situations your browser automatically changes the cursor, but you can use the cursor property to override its behavior. See [this demo](https://css-tricks.com/almanac/properties/c/cursor/ \"Cursors Demo\") of all the different cursors in action! Obvisouly, this property only applies to users with a mouse 😉 .\n\n### Box-Shadow\n\n![box-shadow example](http://udacity.github.io/fend/lessons/L3/problem-set/02-style-an-image/box-shadow.jpg)\n\n_Use shadows to add a sense of depth to images_\n\nThe box-shadow property is relatively new to the world of CSS. You can use it to add a shadow to an element. If you want to try experimenting with box-shadows, check out this [box-shadow generator](http://www.cssmatic.com/box-shadow \"Box-Shadow Generator\") from CSSmatic.\n\n### How to Complete this Quiz\n\nEdit `index.html` in the Udacity classroom to replicate the same styling seen in the solution image.\n\n![kitten solution](http://udacity.github.io/fend/lessons/L3/problem-set/02-style-an-image/kitten-solution-instructions.jpg)\n\nI've already written the **selector** portion of the code, you just need to fill in the styles.\n\n```css\n.kitten-image {\n  /* add CSS here */\n}\n```\n\nClick \"Skip to Quiz\" when you're ready to start. \n\n---\n\n### Image Credit\n\n- 'Kitten' by [Nicolas Suzor](https://www.flickr.com/photos/nicsuzor/) via Flickr, Creative Commons."
+              },
+              "question": {
+                "title": "Style an Image",
+                "semantic_type": "IFrameQuestion",
+                "evaluation_id": "7094378538",
+                "initial_code_files": [
+                  {
+                    "text": "<!DOCTYPE html>\n\n<!-- Instructions: Replicate the same styling seen in the kitten image below. -->\n\n<html>\n<head>\n    <title>Style an Image Quiz</title>\n    <style>\n    \t.kitten-image {\n            /* add CSS here */\n    \t}\n    </style>\n</head>\n<body>\n    <!-- Image credit: Nicolas Suzor, https://www.flickr.com/photos/nicsuzor/ - via Flickr, Creative Commons. -->\n        <img src=\"http://udacity.github.io/fend/lessons/L3/problem-set/02-style-an-image/kitten.jpg\" alt=\"kitten\" class=\"kitten-image\">\n</body>\n</html>",
+                    "name": "index.html"
+                  }
+                ],
+                "external_iframe_uri": null
+              },
+              "answer": {
+                "text": "Here's what I added to  `.kitten-image` :\n\n```css\n.kitten-image {\n  border: 5px dashed salmon;\n  border-radius: 5px;\n  cursor: pointer;\n  box-shadow: 5px 5px 20px #ccc;\n}\n```\n\nThe properties `border` and `border-radius` were used to create the border seen in the image. However, you could have split the border property into `border-width`, `border-style`, and `border-color`. My solution is just using the [shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties \"Shorthand CSS Properties\") version instead.\n\nThe `cursor` property was used to change the mouse cursor from its default setting to the pointing finger.\n\nFinally, I added the property `box-shadow` to produce the drop shadow behind the image.\n\nHere's the before and after:\n\n![kitten solution](http://udacity.github.io/fend/lessons/L3/problem-set/02-style-an-image/solution.gif)",
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 37645,
+          "key": "71213796920923",
+          "title": "Style the Font",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "71213796920923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 43576,
+              "key": "7121379692",
+              "title": "Style the Font",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "7121379692",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                },
+                "text": "# Style the Font\n\nFor this quiz, you'll experiment with styling font using the \"udacity\" text below.\n\n![text image](http://udacity.github.io/fend/lessons/L3/problem-set/03-style-the-font/text.jpg)\n\n_This text looks pretty boring!_\n\nJust like the previous quiz, I'll give you the HTML and it will be your job to add the style. You'll need to use properties related to `font` and `text` to produce the following result.\n\n![text solution](http://udacity.github.io/fend/lessons/L3/problem-set/03-style-the-font/text-solution.jpg)\n\n_Hint: The font color is a shade of purple (`#8001ff`)_\n\n## Fonts\n\nWhen using fonts on the web, you must first consider what fonts are available to your users. Every operating system, be it Windows, OS X, or Linux, comes with a set of pre-installed fonts that you can use for customizing your website. For a complete list of \"web-safe\" fonts, follow this [link](http://www.cssfontstack.com/ \"Web Safe Fonts\").\n\nThe way it works is fairly simple. When using the `font-family` property, you specify the font(s) you want to use in your HTML.\n\n```css\nfont-family: font1, font2, font3, ...;\n```\n\nThen, the browser, starting from left to right, looks at the font(s) you've specified and checks to see if it can render the text using the font(s) you've provided. If it can't use the first font, then the browser moves to the next font, and so-on.\n\nThe purpose for specifying multiple fonts is because not all fonts are available on every operating system. So, specifying multiple, similar fonts ensures users have a consistent experience regardless of the operating system they are using.\n\n![arial vs helvetica font](http://udacity.github.io/fend/lessons/L3/problem-set/03-style-the-font/fonts.jpg)\n\n_Arial vs. Helvetica comparison_\n\nIn the solution, I specified `font-family: Helvetica, Arial, sans-serif;`. Therefore, the browser first tries to render the font Helvetica. On Macs this works because Helvetica is a standard font packaged with the operating system. However, on Windows and Linux machines, it is possible (not likely) that those operating systems do not have support for the Helvetica font by default, so the browser would then try to use Arial. If Arial doesn't exist, then the browser will use whatever sans-serif font is available.\n\n## Custom Fonts\n\nIt is also possible to use custom fonts on the web. If you want to go ahead and start experimenting, you can check out [Google Fonts](https://www.google.com/fonts \"Google Fonts\") to see some open-source web fonts in action! With custom web fonts, it's not as important to specify multiple fonts like seen above; however, it is still smart to specify at least one backup font in case your custom font doesn't load.\n\n## How to Complete this Quiz\n\nEdit `index.html` in the Udacity classroom to replicate the same styling seen in the solution image.\n\n![text solution](http://udacity.github.io/fend/lessons/L3/problem-set/03-style-the-font/text-solution-instructions.jpg)\n\nAgain, I've helped you out by writing the **selector** with an empty declaration block to put your changes. You're welcome 😉 .\n\n```css\n.udacity-text {\n  /* add CSS here */\n}\n```\n\nWhen you're ready, click \"Skip to Quiz\" to get started. "
+              },
+              "question": {
+                "title": "Style the Font",
+                "semantic_type": "IFrameQuestion",
+                "evaluation_id": "7099578536",
+                "initial_code_files": [
+                  {
+                    "text": "<!DOCTYPE html>\n\n<!-- Instructions: Replicate the same styling seen in the Udacity text below. -->\n\n<html>\n<head>\n    <title>Style the Font Quiz</title>\n    <style>\n    \t.udacity-text {\n            /* add CSS here */\n    \t}\n    </style>\n</head>\n<body>\n    <h1 class=\"udacity-text\">udacity</h1>\n</body>\n</html>",
+                    "name": "index.html"
+                  }
+                ],
+                "external_iframe_uri": null
+              },
+              "answer": {
+                "text": "Here's my answer:\n\n```css\n.udacity-text {\n  font-family: Helvetica, Arial, sans-serif;\n  font-size: 60px;\n  text-transform: uppercase;\n  text-decoration: underline;\n  color: #8001ff;\n}\n```\n\nThe `font-family` property is used to change the font to Helvetica, Arial, or the default sans-serif font installed on the operating system.\n\nNext, the `font-size` property is used to increase the size of the font to be larger and the `text-transform` and `text-decoration` properties are used to capitalize and underline the text.\n\nFinally, `color` is used to change the color to the shade of purple you see in the solution image below.\n\nCheck out the before and after:\n\n![text solution](http://udacity.github.io/fend/lessons/L3/problem-set/03-style-the-font/solution.gif)",
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            },
+            {
+              "id": 321942,
+              "key": "f1d299e7-282c-4181-8669-0e5b17629d9d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instructions\n\nReplicate the same styling seen in the Udacity text below.\n\n_Hint: The font color is a shade of purple (#8001ff)_",
+              "instructor_notes": ""
+            },
+            {
+              "id": 321943,
+              "key": "900410e1-576a-4669-9a59-7fe38527f174",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/591b875e_text-solution-instructions/text-solution-instructions.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/900410e1-576a-4669-9a59-7fe38527f174",
+              "caption": "",
+              "alt": null,
+              "width": 279,
+              "height": 68,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 570946,
+          "key": "209f562f-6314-4354-a629-ba76d971b1f3",
+          "title": "Writing Selectors",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "209f562f-6314-4354-a629-ba76d971b1f3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 570948,
+              "key": "ebd234e9-aed6-4b60-b706-199555649998",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Writing Selectors\n\nAt this point, you should be familiar with the basic structure of a CSS statement. Every CSS statement is made up of a **selector** and a **declaration block**. The selector tells the browser what HTML element we want to style and the declaration block tells the browser what styles need to be applied to that HTML.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570949,
+              "key": "88f0a14c-f2a9-4649-836f-9bf822f4b75b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab52792_css-statement/css-statement.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/88f0a14c-f2a9-4649-836f-9bf822f4b75b",
+              "caption": "The basic structure of a CSS statement",
+              "alt": "Image of css ruleset, with a div tag selector and declaration block with text-align: right",
+              "width": 600,
+              "height": 250,
+              "instructor_notes": null
+            },
+            {
+              "id": 570950,
+              "key": "0c7e693b-f70f-416b-a8dd-4a5f082676c4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "For this exercise, I want you to focus exclusively on the selector part of a CSS statement. To do this, I've created a webpage that is lacking style. The webpage already has ids and classes added to the HTML, but it's missing the right selectors to add the style.\n\n```html\n<div id=\"menu\">\n  <h1 class=\"item\">Chicken Clay Pot</h1>\n  <img src=\"img/clay-pot.jpg\" alt=\"clay pot\" class=\"picture\">\n  <p class=\"description\">Crispy rice baked in clay pot topped with chicken and vegetables</p>\n</div>\n```\n\n```css\n/* missing id */ {\n  text-align: center;\n}\n/* missing class */ {\n  color: red;\n}\n/* missing class */ {\n  border-radius: 5px;\n}\n/* missing class */ {\n  font-style: italic;\n}\n```\n\nIt's your job to download the webpage and fill-in the missing selectors. If you do it right, your webpage should end up looking like this...",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570951,
+              "key": "80023108-3ea4-45d9-9b90-dee94c15eb82",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab52807_clay-pot-solution/clay-pot-solution.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/80023108-3ea4-45d9-9b90-dee94c15eb82",
+              "caption": "Your corrected CSS should cause your site to render like this.",
+              "alt": "Screenshot of properly styled webpage. The title, Chicken Clay Pot, is colored red. The image of a pot with chicken and vegetables has a 5 pixel border radius, and the description - \"Crispy rice baked in clay pot topped with chicken and vegetables\" is italicized. The whole image is centered.",
+              "width": 513,
+              "height": 449,
+              "instructor_notes": null
+            },
+            {
+              "id": 570953,
+              "key": "3457e4b4-a5bf-4234-8771-24ce7d54496c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## How to Complete this Exercise\n\n1. Open the `index.html` file in your Workspace below.\n2. Edit `index.html` and add the missing id and class selectors within the `<style>` tags.\n3. When you've successfully added the correct selectors, your site should look like the picture. Click over to `solution.html` to see how I did it.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570947,
+              "key": "321b490a-9376-4c9a-9976-ab5e0f86d715",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewb64542b8",
+              "pool_id": "webterminal",
+              "view_id": "b64542b8-e1f9-4d37-b2b2-9e652948bb0d",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "openFiles": [
+                      "/home/workspace/index.html",
+                      "/home/workspace/solution.html"
+                    ],
+                    "showFiles": false,
+                    "allowClose": false,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 570957,
+          "key": "44d47bb0-4716-45ce-a57c-07aaf6a6a33b",
+          "title": "Using Attributes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "44d47bb0-4716-45ce-a57c-07aaf6a6a33b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 570958,
+              "key": "3ed97185-55a7-4099-8f1c-0b2101da0805",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Using Attributes\n\nUsing selectors is the fastest and most efficient way to add style to your HTML. At this point, you've only practiced using **tag**, **id**, and **class** selectors, but there are actually other types of selectors. If you want to read ahead, check out the following links.\n\n- [MDN's Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors \"Selectors\")\n- [How CSS Selectors Work](https://css-tricks.com/how-css-selectors-work/ \"How CSS Selectors Work\")\n\nWe'll explore these more in later lessons.\n\nNow it's time to put your knowledge of **attributes** to the test. For this quiz, I've created you a simple to-do list in HTML and written the CSS to make it stylized 😃 .\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570959,
+              "key": "47f3383e-54a5-4a6e-9daf-c2a63e22bd51",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab52b6a_to-do-list/to-do-list.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/47f3383e-54a5-4a6e-9daf-c2a63e22bd51",
+              "caption": "",
+              "alt": "Image of a To-Do List, with categories for Chores, Homework and Party.",
+              "width": 320,
+              "height": 486,
+              "instructor_notes": null
+            },
+            {
+              "id": 570961,
+              "key": "27dc089e-7001-4038-9e00-4ccec199188a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n\n\nHowever, in the HTML you'll see that some **id** and **class** attributes are missing from the HTML. To complete the exercise, add the correct **id** and **class** attributes to the HTML to reproduce the to-do list below.\n\n## How to Complete this Exercise\n\n1. Edit `index.html` in the Workspace on the next page reproduce the solution image.\n2. You will need to add the correct **id** and **class** attributes to the HTML elements to reproduce solution image.\n3. Click over to `solution.html` when you're finished to see how I did it.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570960,
+              "key": "e44a44ca-49dc-47e4-b54f-69d8c502a556",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab52b94_to-do-list-solution/to-do-list-solution.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e44a44ca-49dc-47e4-b54f-69d8c502a556",
+              "caption": "",
+              "alt": "",
+              "width": 649,
+              "height": 707,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 570962,
+          "key": "6a57640d-d636-48f1-b2da-48257526d4b2",
+          "title": "Attributes Workspace",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6a57640d-d636-48f1-b2da-48257526d4b2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 570964,
+              "key": "a4c2afad-494c-4b66-bb9b-9a097dd1736c",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view7827ced4",
+              "pool_id": "webterminal",
+              "view_id": "7827ced4-5e2e-460f-b579-6121e7f88b54",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "openFiles": [
+                      "/home/workspace/index.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 570967,
+          "key": "056881b6-9429-4d6e-87d2-3da1f8da1bcf",
+          "title": "Slack Card ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "056881b6-9429-4d6e-87d2-3da1f8da1bcf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 570969,
+              "key": "aeae27e4-afb0-4da0-80c2-679b5ab52ead",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Slack Card\n\n[Slack](http://slack.com/) is a popular chat platform.\n\nA Slack channel usually shows a list of names and their messages. If you click on someone's name, you'll see a card pop up that looks something like this:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570970,
+              "key": "b1f1b879-ff86-48c5-89ed-ac66e8126acb",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab531a1_card/card.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b1f1b879-ff86-48c5-89ed-ac66e8126acb",
+              "caption": "",
+              "alt": "",
+              "width": 323,
+              "height": 400,
+              "instructor_notes": null
+            },
+            {
+              "id": 594214,
+              "key": "edd98b52-ee20-4588-b486-dab388a075da",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Cameron's profile card looks great, but [this one](http://udacity.github.io/fend/lessons/L3/problem-set/07-slack-card/index.html) does not.\n\nFor this excercise, we've given you the code for that site in your own workspace. Your goal is to make it look more like a Slack profile card.\n\nHere are some things to consider fixing: \n\n1. The buttons are very blocky. Change the CSS so that they have rounded corners of 4px.\n2. There seems to be a typo in the top part of the card. I don't know what a 'Stufent' is, but that's probably not the word you want.\n3. The font for the buttons doesn't match the rest of the card. Find a way to make the font the same.\n4. We've provided a placeholder image (in `svg` format) for you. Set the placeholder as the background for the top of the card. \n5. Change the cursor to be a hand pointer instead of an arrow over the buttons.\n6. Have other ideas for how to change the card? Try them out! This is _your_ workspace!\n\n\n*Note: the buttons at the bottom of the page have the class* <code>profile-action</code>*.*\n\nYou'll need to do [some]() [research]() for this quiz. There are at **least two new CSS properties** that you'll need to look up.\n\nHere are a couple of sites that you might find useful:\n[CSS Tricks](https://css-tricks.com/almanac/)\n[MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)\n\n## How to Complete this Exercise\n\n1. Open the Workspace on the next page.\n2. Make the necessary changes to the code to get that Slack card working correctly.\n3. You can see how I did it in the `solution.html` file after you've finished.\n\nHave fun!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 594215,
+          "key": "2fa2a4d0-3b98-4128-b8be-255579e512cb",
+          "title": "Slack Card Workspace",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2fa2a4d0-3b98-4128-b8be-255579e512cb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 594217,
+              "key": "128f8119-073e-4447-a814-e0467da8c9e9",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewbf76758c",
+              "pool_id": "webterminal",
+              "view_id": "bf76758c-5087-4a3a-8bdd-7782b64e7ae9",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "openFiles": [
+                      "/home/workspace/index.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 594220,
+          "key": "6ba2ae5a-39dd-4de8-824a-c280bf7671c1",
+          "title": "Udacity Site Header",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6ba2ae5a-39dd-4de8-824a-c280bf7671c1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 594222,
+              "key": "9cdd6ab6-d716-4f6a-977f-aa0ed90f4aba",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Udacity Site Header\n\nTime for some more CSS practice. \n\nStart by taking a look at any page on Udacity (like the one below). ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 594223,
+              "key": "ae261bab-8f50-4979-8887-839e13ff8858",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/April/5acbedff_blog/blog.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ae261bab-8f50-4979-8887-839e13ff8858",
+              "caption": "Udacity blog as of April 2016",
+              "alt": "Image of Udacity Website in Chrome Browser",
+              "width": 800,
+              "height": 508,
+              "instructor_notes": null
+            },
+            {
+              "id": 594224,
+              "key": "6f8f9c65-0c34-41dd-9329-d3d9acf7d87b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Notice the header bar at the top of the page.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 594225,
+              "key": "9a335021-35dd-472b-ac6f-3b4f17e04554",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/April/5acbee3a_header/header.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/9a335021-35dd-472b-ac6f-3b4f17e04554",
+              "caption": "",
+              "alt": "",
+              "width": 800,
+              "height": 66,
+              "instructor_notes": null
+            },
+            {
+              "id": 594226,
+              "key": "3d589e9a-0654-4757-9303-51f63ee14fce",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In the workspace on the next page, we've started working to get the header to look right, but there are still a few more steps to making it look like it's supposed to. \n\nWe've added a few `<!-- TODO: -->` comments to the page. Go through them one at a time, and make the necessary changes to the CSS. When you're done, take a look at the `solution.html` file to see how I did it.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 594219,
+          "key": "e1c0aefe-024a-422d-b0a2-e3a6c9050e9d",
+          "title": "Udacity Site Header Workspace",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e1c0aefe-024a-422d-b0a2-e3a6c9050e9d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 594228,
+              "key": "df65e8eb-59fb-4367-9a37-b94b7068ac56",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view955331b3",
+              "pool_id": "webterminal",
+              "view_id": "955331b3-1861-4eff-86d9-c1cb30d94be3",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "openFiles": [
+                      "/home/workspace/index.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 22064,
+          "key": "74240073020923",
+          "title": "What is a Stylesheet?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74240073020923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 161230,
+              "key": "292c52a1-c806-4872-a99e-2041a7bad0bb",
+              "title": "What is a stylesheet",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " # What is a Stylesheet?\n\nIn the next exercise, you'll be working with a stylesheet. So what is a stylesheet and why is it important? Well, consider the following question...\n\n_What if you wanted to use the same CSS on more than one webpage?_\n\nYou could just copy all of your CSS from one file and paste it into another, but that seems like a lot of extra work and doesn't scale very well. What if you decide to make changes later? You'd have to change every copy of the CSS!\n\nThere's got to be a better way...",
+              "instructor_notes": ""
+            },
+            {
+              "id": 161231,
+              "key": "adc21ef3-95ac-407f-9941-0c8290586139",
+              "title": "There's got to be a better way meme",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/5792aac7_better-way-meme/better-way-meme.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/adc21ef3-95ac-407f-9941-0c8290586139",
+              "caption": "There's got to be a better way meme",
+              "alt": null,
+              "width": 320,
+              "height": 240,
+              "instructor_notes": null
+            },
+            {
+              "id": 161232,
+              "key": "a122ffab-1e83-4578-8a7a-b1ec35e87ff9",
+              "title": "While the process described above work",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "While the process described above works, it's not recommended. Instead, the preferred method is to write your CSS in a file called a **stylesheet** and then link to that file in your HTML.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 161233,
+              "key": "d1d7ce8a-3e47-4cbb-89c9-c085bc715b9a",
+              "title": "side-by-side html and css",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/5792ab14_side-by-side-html-css/side-by-side-html-css.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d1d7ce8a-3e47-4cbb-89c9-c085bc715b9a",
+              "caption": "Example HTML Document and CSS Stylesheet",
+              "alt": null,
+              "width": 2252,
+              "height": 1354,
+              "instructor_notes": null
+            },
+            {
+              "id": 161234,
+              "key": "b7e0234a-6611-4b44-9f67-8f21d86afcc6",
+              "title": "A stylesheet is a file containing the c",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Stylesheets\n\nA stylesheet is a file containing the code that describes how elements on your webpage should be displayed.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 161235,
+              "key": "7f6e36c3-9a54-49d0-acfc-82a7f6116b68",
+              "title": "example CSS File",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/5792ab54_example-css-file/example-css-file.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7f6e36c3-9a54-49d0-acfc-82a7f6116b68",
+              "caption": "Example CSS File",
+              "alt": null,
+              "width": 1118,
+              "height": 610,
+              "instructor_notes": null
+            },
+            {
+              "id": 161236,
+              "key": "1fc9bdc8-ff7f-4081-ae58-14321b866845",
+              "title": "This is no different than wha",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "This is no different than what you've been doing before, except the CSS lives in a different file... and you don't have to use the `<style>` tags anymore. To create a stylesheet, simply add a new file to your project, write some CSS, and save it as `name-of-stylesheet.css`.\n\n## How to Link to a Stylesheet\n\nBefore your webpage can use the stylesheet, you need to link to it. To do this, you'll need to create a `<link>` to your stylesheet in your HTML. To create a link, simply type the following inside the `<head>` of your HTML.\n\n```html\n<link href=\"path-to-stylesheet/stylesheet.css\" rel=\"stylesheet\">\n```\n\nThe `href` attribute specifies the **path** to the linked resource (you can link to other resources besides stylesheets, more on this later) and the `rel` attribute names the **relationship** between the resource and your document. In this case, the relationship is a stylesheet. When you're done, it will look something like this...\n\n```html\n<head>\n  <title>My Webpage</title>\n  <!-- ... -->\n  <link href=\"path-to-stylesheet/stylesheet.css\" rel=\"stylesheet\">\n  <!-- ... -->\n</head>\n```\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 594312,
+          "key": "b9defa86-d4f8-414e-8064-fa11d3d95e33",
+          "title": "Link to a Stylesheet",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b9defa86-d4f8-414e-8064-fa11d3d95e33",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 594313,
+              "key": "c07b685a-eeae-4dd4-98f8-b447d0140253",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Link to a Stylesheet\n\nFor this exercise, you'll be linking a stylesheet to a familiar webpage from this lesson.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 594314,
+              "key": "da113303-b7d7-4b5c-802d-94b9cd6dfdf6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/April/5acce186_link-to-a-stylesheet-before/link-to-a-stylesheet-before.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/da113303-b7d7-4b5c-802d-94b9cd6dfdf6",
+              "caption": "Do you remember this webpage from the very first video in this lesson?",
+              "alt": "Example portfolio site. Two company logos with accompanying description text.",
+              "width": 450,
+              "height": 452,
+              "instructor_notes": null
+            },
+            {
+              "id": 594333,
+              "key": "fff71ab2-eb55-43a0-a681-02d48e817cdc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "I've already provided you with the HTML and CSS in the downloadables section.  It's your job to download the files and connect the **stylesheet** to the webpage.\n\n```html\n<html>\n<head>\n  <title>Link to a Stylesheet Quiz</title>\n  <!-- add link here -->\n</head>\n<body>\n  <!-- ... -->\n</body>\n</html>\n```\n\nIn the download, `styles.css` (the stylesheet) is conviently tucked away in a folder called `css`. So, you will need to draw upon your knowledge of paths in order to correctly link the stylesheet to the HTML. If you've done everything correctly, your **link** should be formatted like...\n\n```html\n<link href=\"path-to-stylesheet/stylesheet.css\" rel=\"stylesheet\">\n```\n\n## How to Complete this Exercise\n\n1. Go into the workspace on this page\n2. Edit the `index.html` file by adding a link to the missing `stylesheet`.\n3. View `index.html` in the browser to see if the `stylesheet` was applied.\n4. Take a look at the `solution.html` file in the workspace to see how I did it.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 594335,
+              "key": "203fe65c-7038-439a-8e3c-cf543b84aff9",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view2cf2b730",
+              "pool_id": "webterminal",
+              "view_id": "2cf2b730-bcc4-4e1c-bbd7-170b1e66b440",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "openFiles": [
+                      "/home/workspace/index.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    }
+  ]
+}

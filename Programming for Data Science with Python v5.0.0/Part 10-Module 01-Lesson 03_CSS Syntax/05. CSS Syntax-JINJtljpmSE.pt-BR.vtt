@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.320 --> 00:00:05.150
+Para mudar a cor de Hello, World!,
+preciso escrever outro Conjunto de regras CSS.
+
+00:00:05.150 --> 00:00:09.390
+No meu arquivo,
+adiciono uma nova linha e digito h1,
+
+00:00:09.415 --> 00:00:14.467
+seguido por algumas chaves,
+depois color: green.
+
+00:00:15.015 --> 00:00:18.913
+Isso dirá ao navegador para selecionar
+todas as tags h1 no meu documento
+
+00:00:18.938 --> 00:00:22.035
+e mudar a cor
+do texto para verde.
+
+00:00:22.035 --> 00:00:25.635
+Se eu salvar e atualizar,
+lá vamos nós.
+
+00:00:25.635 --> 00:00:26.817
+Hello, World! está verde agora.
+

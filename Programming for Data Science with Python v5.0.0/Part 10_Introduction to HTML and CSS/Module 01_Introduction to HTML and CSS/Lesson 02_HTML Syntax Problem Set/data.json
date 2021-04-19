@@ -1,0 +1,891 @@
+{
+  "data": {
+    "lesson": {
+      "id": 45824,
+      "key": "7222405183",
+      "title": "HTML Syntax Problem Set",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Get practice creating HTML documents and writing tags with this collection of fun challenges.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/7222405183/45824/1518484506181/HTML%20Syntax%20Problem%20Set%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/7222405183/45824/1518484503163/HTML%20Syntax%20Problem%20Set%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 161163,
+          "key": "071d2542-dcc1-472e-b3af-26091bb079f0",
+          "title": "Welcome to the Problem Set!",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "071d2542-dcc1-472e-b3af-26091bb079f0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 161168,
+              "key": "4cba21ad-f5a1-45a6-8dc5-bf4eec0d0e34",
+              "title": "Welcome to the HTML Syntax Problem Set",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Welcome to the HTML Syntax Problem Set!\n\nThe purpose of this problem set is to help you practice writing HTML. We want you to build confidence and master basic HTML syntax.\n\nIf you get stuck, remember that there's no harm in going back and rewatching any part of the lesson. And we encourage you to use outside resources too! You can always refer to [MDN references](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) or your favorite search engine to get unstuck.\n\nYou can do this! Have fun!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 112164,
+          "key": "73065685430923",
+          "title": "Make a Button",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "73065685430923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 328225,
+              "key": "d669b047-1153-45e2-91a2-90ba6bccbe59",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Make a Button\n\nFor this quiz, all I want you to do is type out the HTML to create a button element.\n\n<left><a href=\"\" target=\"_blank\"><button style=\"box-sizing: border-box; border-radius: 4px; background: #02B3E4; border: none; height: 44px; padding: 0 25px; margin: 25px; color: white; cursor: pointer; font-family: Open Sans,sans-serif; display: inline-block; border: none; font-size: 12px; letter-spacing: 1px; font-weight: 600; text-transform: uppercase;\">A button</button></a></left>\n\n*Buttons may look different based on browser and operating system.*\n\nThe purpose of this quiz is to make sure that you're using the correct syntax. As you will realize when you build websites, you can write HTML incorrectly — by forgetting a closing tag, for example — and the browser will try to correct your mistake. Sometimes the browser will guess correctly and your website will look fine. But most of the time, it will be wrong and strange bugs will start appearing.\n\nThis is a good time to double check that you're creating elements correctly because you'll be writing more complicated HTML soon!\n\nYou create button elements the same way you've been creating other elements: `<tag>content</tag>`. In this case, the tag name is `button` and the content that comes between the tags will be the text displayed inside the button. Here's more about buttons on the [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button).\n\nWhen you create your button, make sure you include some text content so that the button says something — it can be whatever you want!\n\nIf you want to see what your button looks like (you don't have to for this quiz), simply create an HTML file with a button element and open it in your browser!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 328226,
+              "key": "55a43a94-bbd8-4a37-928f-d2b118cf5206",
+              "title": "",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "55a43a94-bbd8-4a37-928f-d2b118cf5206",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Enter your code to create a button below.",
+                "matchers": [
+                  {
+                    "expression": "^\\s*<button>[^<]+</button>\\s*$"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 328228,
+          "key": "af7d2791-97a2-420e-a687-c6b4885fec9e",
+          "title": "Make a Button Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "af7d2791-97a2-420e-a687-c6b4885fec9e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 328229,
+              "key": "922341f3-183c-4ba4-aa06-ffcefd837af8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here's my solution:\n\n```\n<button>a button!</button>\n```\n\nIt follows the pattern: `<tag>content</tag>`. Here, the tag is `button` and the content turns into the button's text! If you tried opening this HTML in your browser, you should have made [a button that looks like this](http://udacity.github.io/fend/fend-refresh/lesson2/problem-set/button-example.html).\n\nClick \"Next\" to move on to the next part of the problem set.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 570076,
+          "key": "90c4e4ec-36f2-4beb-a22d-3c7555b89db8",
+          "title": "Make All the Headers",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "90c4e4ec-36f2-4beb-a22d-3c7555b89db8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 570679,
+              "key": "0998ddf0-0d5e-4968-803f-fa9aede490ce",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Make All the Headers\nWebsites have different ways to show you, the user, what is important. Take for example...\n\n## Big Important Words!\n\nThis style of text **Big Important Words!** is called a **header**. This should look familiar because almost every website uses headers.\n\nThe New York Times mobile site uses them. Check out all of the images below. The heading has a red square around each heading.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570301,
+              "key": "6f31fb8d-de1f-42bb-a131-5776bfc95a8e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab41152_raymond-tomlinson/raymond-tomlinson.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6f31fb8d-de1f-42bb-a131-5776bfc95a8e",
+              "caption": "",
+              "alt": "",
+              "width": 600,
+              "height": 170,
+              "instructor_notes": null
+            },
+            {
+              "id": 594368,
+              "key": "1163965c-d861-4a24-91d3-d592620afd33",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "(*[Read the sad story of Mr. Tomlinson's passing](http://mobile.nytimes.com/2016/03/08/technology/raymond-tomlinson-email-obituary.html?_r=0)*)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570676,
+              "key": "00419be7-e393-4bfb-83da-80b5ec266ffa",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab41214_cnn/cnn.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/00419be7-e393-4bfb-83da-80b5ec266ffa",
+              "caption": "CNN sometimes adds headers to images",
+              "alt": "CNN Photo with Headline",
+              "width": 600,
+              "height": 341,
+              "instructor_notes": null
+            },
+            {
+              "id": 594369,
+              "key": "f02084d1-7391-4f99-b056-fa91741bfa19",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Main Headings and Subheadings\n\nIt's also pretty common to see more than one kind of header being used. Here's an example of two headers on Medium.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570677,
+              "key": "1778781c-1516-4cc9-ae97-08437239483c",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab41290_medium/medium.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1778781c-1516-4cc9-ae97-08437239483c",
+              "caption": "The main heading with `\"Farmers are People too\"`, with a sub heading underneath it.",
+              "alt": "Image of Medium Article with Title: Farmers are People too and Subtitle: On how hard we work and what we expect from others.",
+              "width": 500,
+              "height": 249,
+              "instructor_notes": null
+            },
+            {
+              "id": 570681,
+              "key": "268f9869-76d3-40e2-be46-b8b0dfd31068",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "TechCrunch using headers to show the titles of featured stories:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570678,
+              "key": "b7a2a795-00d0-48ac-afd8-a3501395f4ad",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab41313_techcrunch/techcrunch.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b7a2a795-00d0-48ac-afd8-a3501395f4ad",
+              "caption": "A main heading of `\"Featured Stories\"` with each story having its own subheading.",
+              "alt": "Techcrunch Featured Stories Section with Article titles: Horowitz backs rapper Ryan Leslie's Startup, You can now sign up for Google's Project Fi, What if Facebook forgot Donald Trump, Apple VP: FBI's demand hurts all iOS users.",
+              "width": 306,
+              "height": 400,
+              "instructor_notes": null
+            },
+            {
+              "id": 570680,
+              "key": "f63ea82c-4966-47f4-a5bf-4af9ab9c3ec0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "---\nLet's experiment with headers in a real HTML document\n\n## How to Complete this Exercise\n\nSee look, I just used a header to help you figure out why this section is here :)\n\n1. Look at the Workspace on this page. You'll find `index.html` inside.\n2. Edit `index.html`in the workspace and watch your website change in the preview panel.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570085,
+              "key": "b271a4a1-b7dc-4c89-9455-62e15b2cbeb7",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewede7ca0e",
+              "pool_id": "webterminal",
+              "view_id": "ede7ca0e-8eea-4b17-9adb-c33d39bdc2f8",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "openFiles": [
+                      "/home/workspace/index.html",
+                      "/home/workspace/solution.html"
+                    ],
+                    "showFiles": false,
+                    "allowClose": false,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 570095,
+          "key": "c2ce20ec-18cc-4e14-839e-6466c240204b",
+          "title": "Make a List",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c2ce20ec-18cc-4e14-839e-6466c240204b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 570684,
+              "key": "5e0fa75d-65ca-4443-b8c4-c7252efa20c9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Make a List\n\nDid you know that web developers spend 67.7493% of their time looking things up?\n\nOk, I made up that number.\n\nBut seriously, making sense of documentation and looking up new techniques and technologies is a huge part of any web developer's work. And that's what you're going to do in this exercise.\n\nFor this exercise:\n\n* Notice that what you're reading right now is an unordered list :) An unordered list usually displays with bullet points.\n* Use the [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) to research **unordered lists** (`<ul>`).\n* Make an unordered list with the three web languages:\n  * HTML\n  * CSS\n  * JavaScript\n\nThere are two types of lists - ordered lists (with numbers or letters) and unordered lists. Both of them require two kinds of elements. One is going to be nested inside the other (there will be one parent and multiple children).\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 594374,
+              "key": "5790470a-cbd5-4193-a108-38df098ef848",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## How to Complete the Exercise\n\nLook at the Workspace on this page. You'll find `index.html` inside. Edit `index.html`in the workspace and watch your website change in the preview panel.\n\nI want you to: (*Look! Another unordered list!*)\n\n* Add an unordered list element with three child elements (one each for HTML, CSS, and JavaScript).",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570100,
+              "key": "684135c9-a8eb-486f-a812-40a1f57349a9",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view90bffd7f",
+              "pool_id": "webterminal",
+              "view_id": "90bffd7f-82f8-4895-bdd7-e6153d193a5b",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "openFiles": [
+                      "/home/workspace/index.html",
+                      "/home/workspace/solution.html"
+                    ],
+                    "showFiles": false,
+                    "allowClose": false,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 570104,
+          "key": "2f810ece-55db-4d1d-a029-e82bd88afbfb",
+          "title": "Tree to HTML",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2f810ece-55db-4d1d-a029-e82bd88afbfb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 570685,
+              "key": "aeb864b7-1794-4766-92f9-37ce4c0bda85",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Tree to HTML\n\nYou've been learning about the relationship between data trees and HTML. Here's a sample tree for this exercise:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570686,
+              "key": "0396418b-8088-434b-821b-bd638c32fb65",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab416fc_html-tree/html-tree.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0396418b-8088-434b-821b-bd638c32fb65",
+              "caption": "The tree you're going to model",
+              "alt": "Relationship tree: A body tag is connected to an h1 tag and a div tag. The h1 tag is connected to text content. The div tag is connected to two p tags, which are each connected to separate text content.",
+              "width": 400,
+              "height": 383,
+              "instructor_notes": null
+            },
+            {
+              "id": 570687,
+              "key": "7c3b3eb0-0c07-4b93-af67-1856036e3e3b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## How to Complete this Quiz\n\nYou're going to build the HTML for the image, above. Take a close look at the relationships in the tree. Pay attention to parents, children, and siblings. Notice that some elements have text content.\n\nLook at the Workspace, below. You'll find the file `index.html` inside. Edit `index.html` in the workspace and watch your website change in the preview panel.\n\nFor this exercise, I want you to:\n\n* Add an `<h1>` tag with some content.\n* Add a `<div>` tag.\n* Add two paragraph tags as child elements to the`<div>`.\n* Add text content to each paragraph element.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570107,
+              "key": "3afddae1-79db-4a8f-9acc-b0e7004ec7e2",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view530b2908",
+              "pool_id": "webterminal",
+              "view_id": "530b2908-a268-44b3-8e03-6dbffed700e7",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "openFiles": [
+                      "/home/workspace/index.html",
+                      "/home/workspace/solution.html"
+                    ],
+                    "showFiles": false,
+                    "allowClose": false,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 51393,
+          "key": "73229895910923",
+          "title": "Constructing Links",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "73229895910923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 346087,
+              "key": "c70aa833-e657-40af-b0da-5a69bbb9366d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Hyperlinks\n\nThe power of the web is that pages can lead to other pages. When you click on a link on a web page, it takes you to another page. This link is called a **hyperlink**.\n\nHyperlinks are created with [anchor elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a), which generally look like:\n\n    <a href=\"https://www.udacity.com\">Udacity</a>\n\nand render on the page like this: [Udacity](https://www.udacity.com).\n\nInside the opening `a` tag there is `href`, which stands for \"reference.\" This is called an **attribute**. Attributes like `href` describe the properties of HTML elements. In this case, the `href` attribute is the target URL that the link will open. The content inside the anchor element is the text that users see displayed on the page.\n\nThis is the format that you must use when you make hyperlinks! Note:\n\n* There is a space between `a` and `href`.\n* There are no spaces around the `=`.\n* The website has two `\"` around it.\n* There are no spaces between the `href` attribute and the `>` of the opening tag.\n\n## How to Complete this Quiz\n\nFor this quiz, I want you to make your first hyperlink! On the next quiz, I'll give you a URL and the text that needs to be displayed. It will be your job to write the link!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 346086,
+              "key": "43260549-5402-4b5b-83a3-151b690f7bdb",
+              "title": "Constructing Links",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "43260549-5402-4b5b-83a3-151b690f7bdb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Type in a link that points to https://www.google.com and displays as Google.",
+                "matchers": [
+                  {
+                    "expression": "<a href=\"https://www.google.com\">Google</a>"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 570109,
+          "key": "46ec0fa5-e3ac-435d-b354-4b837bf36ca7",
+          "title": "Add an Image",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "46ec0fa5-e3ac-435d-b354-4b837bf36ca7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 570716,
+              "key": "2bce53ba-fa38-49cd-9e36-ab926ebb7047",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Add an Image",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570723,
+              "key": "fedfffc5-009d-48f1-9546-8adb7006cf2d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab42100_screen-shot-2018-03-22-at-2.31.53-pm/screen-shot-2018-03-22-at-2.31.53-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/fedfffc5-009d-48f1-9546-8adb7006cf2d",
+              "caption": "[Puppy image by dbking](https://commons.wikimedia.org/wiki/File%3ASt._Bernard_puppy.jpg) (originally posted to Flickr as 272_7242) [CC BY 2.0](http://creativecommons.org/licenses/by/2.0), via Wikimedia Commons\n\n[Kitten image by Steve-h](https://commons.wikimedia.org/wiki/File%3AGreen_eyes_kitten.jpg) (Flickr: Maggie) [CC BY-SA 2.0](http://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons\n\n[Earth image by Norman Kuring](http://visibleearth.nasa.gov/view.php?id=78314), NASA GSFC, using data from the VIIRS instrument aboard Suomi NPP.",
+              "alt": "A puppy, a kitten and a partially eclipsed planet Earth",
+              "width": 1268,
+              "height": 370,
+              "instructor_notes": null
+            },
+            {
+              "id": 570724,
+              "key": "811253c1-c3c3-4ee1-b30c-1253c210ebfc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "IMAGES! Images on the web are awesome. Time to make one.\n\nFor this exercise, you'll be linking an image in your Workspace. I'll give you the URL of an image and it will be your job to make it display.\n\nAn image is made with an `<img>` element. It looks like so:\n\n```html\n<img src=\"http://somewebsite.com/image.jpg\" alt=\"short description\">\n```\n\nThe source attribute, `src`, is like the `href` of a link - it is the URL of the image you want to display. For now, your images will need to be hosted online, which means that the URL will need to start with `http://` or `https://`. You'll learn about another way to set image source in the next exercise. The `alt` attribute stands for \"alternative description,\" which is important for people who use screen readers to browse the web. This is text that will show up in lieu of the actual image.\n\nAn image element is a little different than the elements you've seen before. Images do not need closing tags! (For the eager, these are called \"[void elements](https://www.w3.org/TR/html52/syntax.html#void-elements)\".)\n\nHere's the [MDN reference about images](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img).\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 594376,
+              "key": "c8d41203-8abb-43e1-889b-afe317056ca1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## How to complete this exercise\n\nLook at the Workspace, below. You'll find the file index.html inside. Edit index.html in the workspace and watch your website change in the preview panel.\n\nFor this exercise, you need to create an image tag in the space provided and link it to the URL given in the HTML comment. Here's an example of what the HTML for an image element would look like: \n\n```html\n<img src=\"http://somewebsite.com/image.jpg\" alt=\"short description\">\n```\n\nI want you to:\n\n1. Create an `<img>` tag at the designated spot in the paragraph below.\n* Set the source to: `http://udacity.github.io/fend/images/udacity.png`\n* Set the tag's `alt` attribute to a description of the image (maybe something like, \"Udacity logo\").",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570114,
+              "key": "5aaf3c82-21cb-4a76-ba15-a310f9e02595",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "viewa66c900f",
+              "pool_id": "webterminal",
+              "view_id": "a66c900f-816a-44e0-9e1c-9159da495d21",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "openFiles": [
+                      "/home/workspace/index.html",
+                      "/home/workspace/solution.html"
+                    ],
+                    "showFiles": false,
+                    "allowClose": false,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace/index.html"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 594377,
+              "key": "615e633b-8c9b-4ae0-be06-e404d3173bb3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Try playing around with the URL for the image to see if you can make a different image appear!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 35368,
+          "key": "73276037150923",
+          "title": "A Guide to Paths",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "73276037150923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 138628,
+              "key": "7327603715",
+              "title": "A Guide to Paths",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You'll soon make a website that displays an image that is stored locally on your computer. In order to display a local image, you need to be able to write a **path**.\n\n If there is a file called `index.html` in a directory and there is another directory called `example/` in the same directory, you can access any files in `example/` from `index.html` with the URL (path) `example/filename.html`, e.g. `<a href=\"example/filename.html\">Example Path</a>`.\n\n## Paths\n\nA path is a way of describing where a file is stored.\n\nThink of it like this:\n\nAnyone in the world can use the address 1600 Pennsylvania Ave NW, Washington DC, USA 20006 to find the White House. A street address is an absolute path to a location.\n\nBut, if you were at the [Eisenhower Executive Office](https://www.google.com/maps/place/Eisenhower+Executive+Office+Building/@38.8974712,-77.0390948,17z/data=!4m7!1m4!3m3!1s0x89b7b7bcdec17ee3:0xf920b148b3d45e45!2s1600+Pennsylvania+Ave+NW,+Washington,+DC+20500!3b1!3m1!1s0x0000000000000000:0x054470506cffbeb3), you could also use the phrase \"next door\" to find the White House. \"Next door\" is a relative path because it depends on your current location.\n\nThere are essentially two domains for paths that you'll need to consider as a web developer: paths to find files on your computer, **local** files, and paths to find files on other computers, **external** files.\n\n### Local Paths\n\nComputers have folders (also called \"directories\"). Operating systems like Windows, Mac and Linux organize *all* of your files into a tree of directories called a **file system**. There's a top-most directory, often called the **root**, that contains all of the other directories. Within the root, there are files and directories. Within those directories are more files and more directories. And within those directories are even more files and directories, and so on.\n\nCompare this part of the file system on my computer:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 194470,
+              "key": "43278ac0-d9d4-4a8d-9a84-cded5e3763b4",
+              "title": "local path directory structure",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57ed86e8_local-paths/local-paths.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/43278ac0-d9d4-4a8d-9a84-cded5e3763b4",
+              "caption": "Local path directory structure screenshot",
+              "alt": null,
+              "width": 500,
+              "height": 307,
+              "instructor_notes": null
+            },
+            {
+              "id": 194471,
+              "key": "1d09dbba-54a5-4caf-95ab-3f1b58008eba",
+              "title": "to a tree diagram showing the same directory structure:",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "to a tree diagram showing the same directory structure:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 194472,
+              "key": "209270eb-d5b4-4587-a097-aba1055e0ebb",
+              "title": "tree diagram showing the same directory structure",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57ed8715_directory-structure-tree/directory-structure-tree.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/209270eb-d5b4-4587-a097-aba1055e0ebb",
+              "caption": "Tree diagram of directory structure",
+              "alt": null,
+              "width": 500,
+              "height": 311,
+              "instructor_notes": null
+            },
+            {
+              "id": 194473,
+              "key": "1b0e214e-752a-4efd-91c5-cf2ff2eaaa66",
+              "title": "Every file has an address, which we call the \"path.\"",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Every file has an address, which we call the \"path.\" An absolute path is written in relation to the computer's root directory. For instance, a file in the Documents folder on a Mac has a path that looks like this:\n\n```text\n/Users/cameron/Documents/file.txt\n```\n\n`file.txt` is stored inside `Documents/`. `Users/`, `cameron/` and `Documents/` are all names of directories. `Documents/` lives inside `cameron/` and `cameron/` lives inside `Users/`. `Users/` is inside the root directory, which is represented by the first `/`. The rest of the `/` are used to separate directories.\n\nWhen you open an HTML file in your browser, you're seeing the absolute path to the file on your computer.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 194474,
+              "key": "a72ca3fb-48c4-4227-ab52-1686f42820f1",
+              "title": "Absolute Path",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57ed87c3_absolute-path-browser/absolute-path-browser.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a72ca3fb-48c4-4227-ab52-1686f42820f1",
+              "caption": "Absolute Path to index.html",
+              "alt": null,
+              "width": 600,
+              "height": 184,
+              "instructor_notes": null
+            },
+            {
+              "id": 194475,
+              "key": "a82d62c2-95b2-4d43-8acb-d35db7b40181",
+              "title": "This URL will *only* work for you on your com",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "This URL will *only* work for you on your computer. As no one else has your file system, this URL is unique to your computer. If you want other people to be able to access it, then you need an...\n\n### External Paths\n\nThe process of loading a website from a URL like `https://www.udacity.com` mimics opening an HTML file that you've written and saved to your computer. Every website starts with an HTML file. It just so happens that when you want to visit a website, the HTML file that you want to open lives on a different computer. The computer responsible for giving you a website's files is called a **server**.\n\nPointing your browser to `https://www.udacity.com` sends a request to Udacity's server for the HTML file (and others) that your computer needs to load the Udacity website. You can think of `udacity.com` as the root path of Udacity's server (computer) that anyone can access (the reality of the situation is actually much more complicated but the general idea is true). Unlike your personal computer (for now!), Udacity's servers run software that **expose** files to the web, which means that they make them available to anyone who wants them. Servers have an **external path** that anyone can access and is the reason why the web works.\n\nDifferent websites are just different collections of files. Every website is really just a server (or many servers) with an external address, which we call a URL. Servers store files and send them to computers who request them (the requesting computers are called **clients**).\n\nThere are different **protocols** for serving files, the most common of which on the web are HTTP and HTTPS. When you open a file on your own computer, you're using the file protocol. You don't need to know much more about protocols for now, but if you're interested in learning (a lot!) more about HTTP, check out [Networking for Web Developers](https://www.udacity.com/course/networking-for-web-developers--ud256).\n\n### Relative Paths\n\nThe relative path is similar to the absolute path, but it describes how to find a path to a file from a directory that is not the root directory. Like using the phrase \"next door\" to tell someone how to find the White House from the Eisenhower Executive Office, a relative path takes advantage of the location of one file to describe where another file can be found.\n\nRelative paths work the same for both local and external paths. Let's break down two examples of absolute paths to see how relative paths work.\n\n**External**:\n\n    <a href=\"http://labs.udacity.com/fend/example/hello-world.html\">Hello, world!</a>\n\n**Local**:\n\n    <a href=\"/Users/cameron/Udacity/etc/labs/fend/example/hello-world.html\"> Hello, world!</a>\n\n`href` is really just a path to a file.\n\nBoth examples are links to the same file using absolute paths, but the external example would work for anyone and only my computer can use the link in the local example.\n\nPay attention to the `fend/example/hello-world.html` portion of both paths - they mean the same thing.\n\nImagine that you are editing `/Users/cameron/Udacity/etc/labs/fend/test.html`. `test.html` can reference `hello-world.html` by describing how to get from it's location in `fend/` to `hello-world.html`. The relative path would look like:\n\n    example/hello-world.html\n\nThis relative path takes advantage of the fact that `test.html` and `example/` are in the same directory.\n\nBut what if I'm editing a file in `/Users/cameron/Udacity/etc/labs/` and I want to write a path to `hello-world.html`? In that case, the relative path would be:\n\n```text\nfend/example/hello-world.html\n```\n\nNow that I'm in `labs/`, not `fend/`, I have to include `fend/` in a relative path to `hello-world.html`.\n\nTo finish this off, let's imagine there are two files:\n\n```text\nhttp://labs.udacity.com/science/sciences.html\n```\n\nand\n\n```text\nhttp://labs.udacity.com/science/physics/relativity.html\n```\n\nIn order to write a relative path from `sciences.html` to `relativity.html`, I only need to include the part of the path that describes how to get from `science/` to `relativity.html`:\n\n```html\n<a href=\"physics/relativity.html\">Einstein's Special Relativity</a>\n```\n\nAnd that's it! Now it's time to apply your new skills.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 570115,
+          "key": "1fa1ca87-51c7-428e-9438-508c08f1d1a0",
+          "title": "Figures",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1fa1ca87-51c7-428e-9438-508c08f1d1a0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 570737,
+              "key": "9b472268-3c45-4242-8e7a-ca7f82819e95",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Figures\n\nIt's important to respect copyright and attribution on the web. When you use someone else's work, you need to give the author credit. With that in mind, for this exercise you're going to create an image with a caption underneath. I want you to give credit to the image's photographer by attributing them in the image's caption and providing a link to the source material.\n\nThis is what it should look like in your browser: ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570738,
+              "key": "bdb57ff9-6257-476d-80b9-a5f61f28bf22",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/March/5ab42416_caption/caption.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/bdb57ff9-6257-476d-80b9-a5f61f28bf22",
+              "caption": "",
+              "alt": "",
+              "width": 600,
+              "height": 381,
+              "instructor_notes": null
+            },
+            {
+              "id": 570740,
+              "key": "b068c969-19fc-447a-aef7-6a0df577b76d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Notice, in the image above, that there is a link to the source in the caption below the image. \n\n### How to Complete this Exercise\n\nFor this exercise, you need to edit `index.html` so that the caption displays below the image. I want you to use a **relative** path to the image, which is going to be in the same directory as `index.html`. Remember, a relative path points to the file **from the current directory** - it does not start with the root. (Your relative path should *not* start with `/`, `file://`, `C:\\`, or `http://`).\n\nI want you to:\n\n1. Create a `<figure>` element\n* Add an `<img>` element whose `src` attribute points to the provided image (look in the Workspace's sidebar for the \"redwoods_state_park.jpg\" image!)\n* Add an `alt` attribute to the image\n* Add a `<figcaption>` element with the text for the image's caption\n* Change the [Markdown](https://daringfireball.net/projects/markdown/) code to a real HTML link\n\nHint: If you get stuck, I recommend checking out the [figure element on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure).",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570116,
+              "key": "402a8085-4752-47a2-8c13-0c5b91ddcf85",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view160b9c59",
+              "pool_id": "webterminal",
+              "view_id": "160b9c59-d16a-4d33-9176-def0b6b3bb90",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "openFiles": [
+                      "/home/workspace/index.html"
+                    ],
+                    "showFiles": true,
+                    "allowClose": true,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 570139,
+          "key": "458dd2c0-4065-4cdf-b6a8-0cbdbb10a699",
+          "title": "Mockup to Website",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "458dd2c0-4065-4cdf-b6a8-0cbdbb10a699",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 570787,
+              "key": "ca7ebe88-16a9-4278-aec9-dedff7e9416f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Mockup to Website\n\nIt's common for web developers to work with designers who focus on creating user interfaces and user experiences. Designers use software like Adobe Photoshop to mock up - draw - websites. The mockups that they create are usually just images of websites with some annotations and descriptions. \n\nAs a web developer, one of the tasks you might be asked to do is take a mockup created by a visual designer and translate it into a live website. I use the word \"translate\" because the process of going from mockup to website is similar to the process of translating between natural languages. Just as you can create the same meaning using different words and phrases with a natural language, you can create the same website design using different HTML elements.\n\nI want you to practice the process of going from a mockup to a website now! Here is a website mockup (note: I zoomed in for the screen shot):",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570788,
+              "key": "3a77b961-f371-4582-ab88-d1b6424224da",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/June/593763fd_mockup/mockup.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3a77b961-f371-4582-ab88-d1b6424224da",
+              "caption": "",
+              "alt": "",
+              "width": 600,
+              "height": 381,
+              "instructor_notes": null
+            },
+            {
+              "id": 570790,
+              "key": "8809be4b-1e2e-46b9-a97d-3831b7186361",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "There are many ways to turn this mockup into website. The best end result isn't perfect HTML - it's getting your site to look the way it's supposed to. When you're done, compare your website to the mockup. You'll know you've finished this exercise when your site looks the same :)\n\n### How to Complete this Exercise\n\nI want you to recreate your website to look identical to the mockup. Start by taking a few minutes to analyze the mockup. What text is changed? What images are there? While doing this, I want you to practice indenting children elements. I'll show you how I indented my HTML in the solution.\n\nThis mockup was taken from [this Udacity blog post](http://blog.udacity.com/2016/01/hottest-jobs-in-2016-2-web-developer.html).\n\nI want you to:\n\n1.  Position the text content to match the mockup\n* Style the content to match the mockup\n* Add any images that are missing (don't forget to include the `alt` attribute!)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 570146,
+              "key": "70518415-31bf-4502-9089-038c4776f49b",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "view05b808d7",
+              "pool_id": "webterminal",
+              "view_id": "05b808d7-5e98-463d-b006-9f1f9046ce7e",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "openFiles": [
+                      "/home/workspace/index.html",
+                      "/home/workspace/solution.html"
+                    ],
+                    "showFiles": false,
+                    "allowClose": false,
+                    "showEditor": true,
+                    "allowSubmit": false,
+                    "autoRefresh": true,
+                    "previewFile": "/home/workspace"
+                  },
+                  "kind": "html-live"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    }
+  ]
+}

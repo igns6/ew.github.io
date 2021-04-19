@@ -1,0 +1,30 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:05.150
+To change the color of, Hello, World!,
+I need to write another CSS Rule Set.
+
+00:00:05.150 --> 00:00:08.370
+In my file,
+I will add a new line and type h1,
+
+00:00:08.370 --> 00:00:12.630
+followed by some braces,
+then the color green.
+
+00:00:15.015 --> 00:00:19.215
+This will tell my browser to select
+all of the h1 tags in my document and
+
+00:00:19.215 --> 00:00:22.035
+change the color of their text to green.
+
+00:00:22.035 --> 00:00:25.635
+If I save and refresh,
+boom, there you go.
+
+00:00:25.635 --> 00:00:26.695
+Hello, World!, is now green.
+
