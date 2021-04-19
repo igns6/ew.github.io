@@ -1,0 +1,246 @@
+{
+  "data": {
+    "lesson": {
+      "id": 691942,
+      "key": "687c7e2f-6211-45ac-9dfa-240d446821e4",
+      "title": "Advanced Topics",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson we cover some advanced topics of iterators and generators. You are not required to complete this but we have provided these to give you a taste of these.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/687c7e2f-6211-45ac-9dfa-240d446821e4/691942/1544201082540/Advanced+Topics+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/687c7e2f-6211-45ac-9dfa-240d446821e4/691942/1544201080189/Advanced+Topics+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 691949,
+          "key": "bb7e01c7-1d14-43cf-95da-a8eed788ff7e",
+          "title": "Advanced Topics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bb7e01c7-1d14-43cf-95da-a8eed788ff7e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 691953,
+              "key": "2834e372-3db3-45ac-ad63-4f07f39d912a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson we cover the advanced topics of generator functions and iterators. \n\n** Note: **These are not required for completing the Data Analyst Nanodegree Program, but we have provided these for you in case you are curious to learn about them. You are welcome to study these in the following pages.\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 486352,
+          "key": "50247542-7933-4afe-9130-ff1dff429b03",
+          "title": "[Optional] Iterators and Generators",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "50247542-7933-4afe-9130-ff1dff429b03",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 527734,
+              "key": "017906ac-48a8-48c1-88af-32c4698b831d",
+              "title": "Iterators And Generators",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "tYH8X4Zeh-0",
+                "china_cdn_id": "tYH8X4Zeh-0.mp4"
+              }
+            },
+            {
+              "id": 495404,
+              "key": "3487d6fb-ec0d-4fdf-ab14-66b78479dc20",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Iterators and Generators\n__Iterables__ are objects that can return one of their elements at a time, such as a list. Many of the built-in functions we’ve used so far, like 'enumerate,' return an iterator.\n\nAn __iterator__ is an object that represents a stream of data. This is different from a **list**, which is also an iterable, but is not an iterator because it is not a stream of data.\n\n__Generators__ are a simple way to create iterators using functions. You can also define iterators using __classes__, which you can read more about [here](https://docs.python.org/3/tutorial/classes.html#iterators).\n\nHere is an example of a generator function called `my_range`, which produces an iterator that is a stream of numbers from 0 to (x - 1).\n\n```python\ndef my_range(x):\n    i = 0\n    while i < x:\n        yield i\n        i += 1\n```\nNotice that instead of using the return keyword, it uses `yield`. This allows the function to return values one at a time, and start where it left off each time it’s called. This `yield` keyword is what differentiates a generator from a typical function.\n\nRemember, since this returns an iterator, we can convert it to a list or iterate through it in a loop to view its contents. For example, this code:\n```python\nfor x in my_range(5):\n    print(x)\n```\noutputs:\n```txt\n0\n1\n2\n3\n4\n```\n\n# Why Generators?\nYou may be wondering why we'd use generators over lists. Here’s an excerpt from a [stack overflow page](https://softwareengineering.stackexchange.com/questions/290231/when-should-i-use-a-generator-and-when-a-list-in-python/290235) that addresses this: \n>Generators are a lazy way to build iterables. They are useful when the fully realized list would not fit in memory, or when the cost to calculate each list element is high and you want to do it as late as possible. But they can only be iterated over once.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 486353,
+          "key": "8f8f635f-3a64-4430-9f5a-1b9cae806e6d",
+          "title": "[Optional] Quiz: Iterators and Generators",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8f8f635f-3a64-4430-9f5a-1b9cae806e6d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 527889,
+              "key": "951cd3c5-a374-41fb-822a-65d7b74e2868",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz: Implement `my_enumerate`\nWrite your own generator function that works like the built-in function `enumerate`.\n\nCalling the function like this:\n```python\nlessons = [\"Why Python Programming\", \"Data Types and Operators\", \"Control Flow\", \"Functions\", \"Scripting\"]\n\nfor i, lesson in my_enumerate(lessons, 1):\n    print(\"Lesson {}: {}\".format(i, lesson))\n```\nshould output:\n```txt\nLesson 1: Why Python Programming\nLesson 2: Data Types and Operators\nLesson 3: Control Flow\nLesson 4: Functions\nLesson 5: Scripting\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 527888,
+              "key": "cf6d568a-79f0-44dc-b136-8b05b7484805",
+              "title": "",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "cf6d568a-79f0-44dc-b136-8b05b7484805",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": null,
+              "question": {
+                "title": "",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "5163475710640128",
+                "initial_code_files": [
+                  {
+                    "text": "lessons = [\"Why Python Programming\", \"Data Types and Operators\", \"Control Flow\", \"Functions\", \"Scripting\"]\n\ndef my_enumerate(iterable, start=0):\n    # Implement your generator function here\n\n\nfor i, lesson in my_enumerate(lessons, 1):\n    print(\"Lesson {}: {}\".format(i, lesson))",
+                    "name": "my_enumerate.py"
+                  }
+                ]
+              },
+              "answer": null
+            },
+            {
+              "id": 527932,
+              "key": "3180c2d9-1643-48bf-903b-5b3b26ae3c67",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz: Chunker\nIf you have an iterable that is too large to fit in memory in full (e.g., when dealing with large files), being able to take and use chunks of it at a time can be very valuable.\n\nImplement a generator function, `chunker`, that takes in an iterable and yields a chunk of a specified size at a time.\n\nCalling the function like this:\n```python\nfor chunk in chunker(range(25), 4):\n    print(list(chunk))\n```\nshould output:\n```txt\n[0, 1, 2, 3]\n[4, 5, 6, 7]\n[8, 9, 10, 11]\n[12, 13, 14, 15]\n[16, 17, 18, 19]\n[20, 21, 22, 23]\n[24]\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 527931,
+              "key": "fcf5292d-f95b-40fa-a76e-b5beff5dbb7d",
+              "title": "",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "fcf5292d-f95b-40fa-a76e-b5beff5dbb7d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": null,
+              "question": {
+                "title": "",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "6466613495332864",
+                "initial_code_files": [
+                  {
+                    "text": "def chunker(iterable, size):\n    # Implement function here\n\n\nfor chunk in chunker(range(25), 4):\n    print(list(chunk))",
+                    "name": "chunker.py"
+                  }
+                ]
+              },
+              "answer": null
+            }
+          ]
+        },
+        {
+          "id": 527890,
+          "key": "7da0a9fa-5c9b-4e81-a043-0fabd59ba8f0",
+          "title": "[Optional] Solution: Iterators and Generators",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7da0a9fa-5c9b-4e81-a043-0fabd59ba8f0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 527891,
+              "key": "928aa1fb-97d8-4e61-8b0f-e47e00fd11a1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz Solution: Implement `my_enumerate`\n```python\nlessons = [\"Why Python Programming\", \"Data Types and Operators\", \"Control Flow\", \"Functions\", \"Scripting\"]\n\ndef my_enumerate(iterable, start=0):\n    count = start\n    for element in iterable:\n        yield count, element\n        count += 1\n\nfor i, lesson in my_enumerate(lessons, 1):\n    print(\"Lesson {}: {}\".format(i, lesson))\n```\n### Output:\n```txt\nLesson 1: Why Python Programming\nLesson 2: Data Types and Operators\nLesson 3: Control Flow\nLesson 4: Functions\nLesson 5: Scripting\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 527937,
+              "key": "d3a112f8-ec87-413e-8a29-216f93f826a5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz Solution: Chunker\nHere's one way you could do it. You can find this implementation on this [Stack Overflow page](https://stackoverflow.com/questions/312443/how-do-you-split-a-list-into-evenly-sized-chunks).\n```python\ndef chunker(iterable, size):\n    \"\"\"Yield successive chunks from iterable of length size.\"\"\"\n    for i in range(0, len(iterable), size):\n        yield iterable[i:i + size]\n\nfor chunk in chunker(range(25), 4):\n    print(list(chunk))\n```\n### Output:\n```txt\n[0, 1, 2, 3]\n[4, 5, 6, 7]\n[8, 9, 10, 11]\n[12, 13, 14, 15]\n[16, 17, 18, 19]\n[20, 21, 22, 23]\n[24]\n```",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 531521,
+          "key": "1b22a853-e86e-4441-8700-dd048443ee82",
+          "title": "[Optional] Generator Expressions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1b22a853-e86e-4441-8700-dd048443ee82",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 531526,
+              "key": "fe178c85-71b6-45dd-82f7-ef1f6ed9b00f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Generator Expressions\nHere's a cool concept that combines generators and list comprehensions! You can actually create a generator in the same way you'd normally write a list comprehension, except with parentheses instead of square brackets. For example:\n```python\nsq_list = [x**2 for x in range(10)]  # this produces a list of squares\n\nsq_iterator = (x**2 for x in range(10))  # this produces an iterator of squares\n```\nThis can help you save time and create efficient code!",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
