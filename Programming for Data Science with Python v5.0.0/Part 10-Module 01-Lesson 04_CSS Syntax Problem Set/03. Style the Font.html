@@ -1,0 +1,305 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Style the Font</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>CSS Syntax Problem Set</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Welcome to the Problem Set!.html">01. Welcome to the Problem Set!</a>
+    </li>
+    <li class="">
+      <a href="02. Style an Image.html">02. Style an Image</a>
+    </li>
+    <li class="">
+      <a href="03. Style the Font.html">03. Style the Font</a>
+    </li>
+    <li class="">
+      <a href="04. Writing Selectors.html">04. Writing Selectors</a>
+    </li>
+    <li class="">
+      <a href="05. Using Attributes.html">05. Using Attributes</a>
+    </li>
+    <li class="">
+      <a href="06. Attributes Workspace.html">06. Attributes Workspace</a>
+    </li>
+    <li class="">
+      <a href="07. Slack Card .html">07. Slack Card </a>
+    </li>
+    <li class="">
+      <a href="08. Slack Card Workspace.html">08. Slack Card Workspace</a>
+    </li>
+    <li class="">
+      <a href="09. Udacity Site Header.html">09. Udacity Site Header</a>
+    </li>
+    <li class="">
+      <a href="10. Udacity Site Header Workspace.html">10. Udacity Site Header Workspace</a>
+    </li>
+    <li class="">
+      <a href="11. What is a Stylesheet.html">11. What is a Stylesheet?</a>
+    </li>
+    <li class="">
+      <a href="12. Link to a Stylesheet.html">12. Link to a Stylesheet</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">03. Style the Font</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Style the Font</p></h3>
+  <div>
+  <div>
+    <h4>Question:</h4>
+
+
+    <p><h1 id="style-the-font">Style the Font</h1>
+<p>For this quiz, you'll experiment with styling font using the "udacity" text below.</p>
+<p><img src="media/unnamed-43576-0.gif" alt="text image" /></p>
+<p><em>This text looks pretty boring!</em></p>
+<p>Just like the previous quiz, I'll give you the HTML and it will be your job to add the style. You'll need to use properties related to <code>font</code> and <code>text</code> to produce the following result.</p>
+<p><img src="media/unnamed-43576-1.gif" alt="text solution" /></p>
+<p><em>Hint: The font color is a shade of purple (<code>#8001ff</code>)</em></p>
+<h2 id="fonts">Fonts</h2>
+<p>When using fonts on the web, you must first consider what fonts are available to your users. Every operating system, be it Windows, OS X, or Linux, comes with a set of pre-installed fonts that you can use for customizing your website. For a complete list of "web-safe" fonts, follow this <a href="http://www.cssfontstack.com/" title="Web Safe Fonts" rel="noopener noreferrer" target="_blank">link</a>.</p>
+<p>The way it works is fairly simple. When using the <code>font-family</code> property, you specify the font(s) you want to use in your HTML.</p>
+<pre><code class="css language-css">font-family: font1, font2, font3, ...;</code></pre>
+<p>Then, the browser, starting from left to right, looks at the font(s) you've specified and checks to see if it can render the text using the font(s) you've provided. If it can't use the first font, then the browser moves to the next font, and so-on.</p>
+<p>The purpose for specifying multiple fonts is because not all fonts are available on every operating system. So, specifying multiple, similar fonts ensures users have a consistent experience regardless of the operating system they are using.</p>
+<p><img src="media/unnamed-43576-2.gif" alt="arial vs helvetica font" /></p>
+<p><em>Arial vs. Helvetica comparison</em></p>
+<p>In the solution, I specified <code>font-family: Helvetica, Arial, sans-serif;</code>. Therefore, the browser first tries to render the font Helvetica. On Macs this works because Helvetica is a standard font packaged with the operating system. However, on Windows and Linux machines, it is possible (not likely) that those operating systems do not have support for the Helvetica font by default, so the browser would then try to use Arial. If Arial doesn't exist, then the browser will use whatever sans-serif font is available.</p>
+<h2 id="custom-fonts">Custom Fonts</h2>
+<p>It is also possible to use custom fonts on the web. If you want to go ahead and start experimenting, you can check out <a href="https://www.google.com/fonts" title="Google Fonts" rel="noopener noreferrer" target="_blank">Google Fonts</a> to see some open-source web fonts in action! With custom web fonts, it's not as important to specify multiple fonts like seen above; however, it is still smart to specify at least one backup font in case your custom font doesn't load.</p>
+<h2 id="how-to-complete-this-quiz">How to Complete this Quiz</h2>
+<p>Edit <code>index.html</code> in the Udacity classroom to replicate the same styling seen in the solution image.</p>
+<p><img src="media/unnamed-43576-3.gif" alt="text solution" /></p>
+<p>Again, I've helped you out by writing the <strong>selector</strong> with an empty declaration block to put your changes. You're welcome 😉 .</p>
+<pre><code class="css language-css">.udacity-text {
+  /* add CSS here */
+}</code></pre>
+<p>When you're ready, click "Skip to Quiz" to get started. </p></p>
+  </div>
+
+  <h4>Start Quiz:</h4>
+  <div>
+  <div class="nav nav-tabs nav-fill" role="tablist" id="question-tabs">
+    <a href="#43576-index-html" class="nav-item nav-link  active show" id="tab-43576-index-html" data-toggle="tab" role="tab"
+      aria-controls="43576-index-html" aria-selected="true">index.html</a>
+  </div>
+
+  <div class="tab-content" style="padding: 20px 0;" id="question-tab-contents">
+    <div class="tab-pane  active show" id="43576-index-html" aria-labelledby="tab-43576-index-html" role="tabpanel">
+      <pre><code></code>&lt;!DOCTYPE html&gt;
+
+&lt;!-- Instructions: Replicate the same styling seen in the Udacity text below. --&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Style the Font Quiz&lt;/title&gt;
+    &lt;style&gt;
+    	.udacity-text {
+            /* add CSS here */
+    	}
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1 class&#x3D;&quot;udacity-text&quot;&gt;udacity&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    </div>
+  </div>
+</div>
+
+
+
+  <div>
+    <details>
+      <summary><strong>Solution:</strong></summary>
+      <div>
+
+        <p><p>Here's my answer:</p>
+<pre><code class="css language-css">.udacity-text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #8001ff;
+}</code></pre>
+<p>The <code>font-family</code> property is used to change the font to Helvetica, Arial, or the default sans-serif font installed on the operating system.</p>
+<p>Next, the <code>font-size</code> property is used to increase the size of the font to be larger and the <code>text-transform</code> and <code>text-decoration</code> properties are used to capitalize and underline the text.</p>
+<p>Finally, <code>color</code> is used to change the color to the shade of purple you see in the solution image below.</p>
+<p>Check out the before and after:</p>
+<p><img src="media/unnamed-43576-0.gif" alt="text solution" /></p></p>
+      </div>
+    </details>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="instructions">Instructions</h2>
+<p>Replicate the same styling seen in the Udacity text below.</p>
+<p><em>Hint: The font color is a shade of purple (#8001ff)</em></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/text-solution-instructions.jpg" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="04. Writing Selectors.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('03. Style the Font')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>
